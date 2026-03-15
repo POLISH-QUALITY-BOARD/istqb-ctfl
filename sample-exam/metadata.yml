@@ -18,8 +18,6 @@ provided-by:
 # 3rd-party organizations with logos
 - name: Czech and Slovak Quality Board
   logo: casqb-logo-vertical
-- name: Polish Testing Board
-  logo: sjsi-logo
 # 3rd-party organizations without logos
 - name: International Requirements Engineering Board # or just:
 - Hungarian Testing Board
