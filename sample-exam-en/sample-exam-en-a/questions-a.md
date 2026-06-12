@@ -1,0 +1,1006 @@
+# metadata
+lo: 1.1.1
+k-level: K1
+points: 1
+correct: c
+
+## question
+Which of the following statements describe a valid test objective?
+
+## answers
+a) To prove that there are no unfixed defects in the system under test  
+b) To prove that there will be no failures after the implementation of the system into production  
+c) To reduce the risk level of the test object and to build confidence in the quality level  
+d) To verify that there are no untested combinations of inputs  
+
+## justification
+a) Is not correct. It is impossible to prove that there are no defects anymore in the system under test. See testing principle 1  
+b) Is not correct. See testing principle 7  
+c) Is correct. Testing finds defects and failures which reduces the level of risk and at the same time gives more confidence in the quality level of the test object  
+d) Is not correct. It is impossible to test all combinations of inputs (see testing principle 2)  
+
+# metadata
+lo: 1.2.1
+k-level: K2
+points: 1
+correct: a
+
+## question
+Which of the following options shows an example of test activities that contribute to success?
+
+## answers
+a) Having testers involved during various software development lifecycle (SDLC) activities will help to detect defects in work products  
+b) Testers try not to disturb the developers while coding, so that the developers write better code  
+c) Testers collaborating with end users help to improve the quality of defect reports during component integration and system testing  
+d) Certified testers will design much better test cases than non-certified testers  
+
+## justification
+a) Is correct. It is important that testers are involved from the beginning of the software development lifecycle (SDLC). It will increase understanding of design decisions and will detect defects early  
+b) Is not correct. Both developers and testers will have more understanding of each other's work products and how to test the code  
+c) Is not correct. If testers can work closely with system designers, it will give them insight as to how to test  
+d) Is not correct. Being certified does not automatically mean that the tester will be better in test design  
+
+# metadata
+lo: 1.3.1
+k-level: K2
+points: 1
+correct: a
+
+## question
+You have been assigned as a tester to a team producing a new system incrementally. You have noticed that no changes have been made to the existing regression test cases for several iterations and no new regression defects were identified. Your manager is happy, but you are not. Which testing principle explains your skepticism?
+
+## answers
+a) Tests wear out  
+b) Absence-of-errors fallacy  
+c) Defects cluster together  
+d) Exhaustive testing is impossible  
+
+## justification
+a) Is correct. This principle means that if the same tests are repeated over and over again, eventually these tests no longer find any new defects. This is probably why the tests all passed in this release as well  
+b) Is not correct. This principle says about the mistaken belief that just finding and fixing a large number of defects will ensure the success of a system  
+c) Is not correct. This principle says that a small number of components usually contain most of the defects  
+d) Is not correct. This principle states that testing all combinations of inputs and preconditions is not feasible  
+
+# metadata
+lo: 1.4.1
+k-level: K2
+points: 1
+correct: b
+
+## question
+You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality
+Which of the following activities is a part of test analysis?
+
+## answers
+a) Estimating that testing the integration with the payment service will take 8 person-days  
+b) Deciding that the team should test if it is possible to properly share payment between many users  
+c) Using boundary value analysis (BVA) to derive the test data for the test cases that check the correct payment processing for the minimum allowed amount to be paid  
+d) Analyzing the discrepancy between the actual result and expected result after executing a test case that checks the process of payment with a credit card, and reporting a defect  
+
+## justification
+a) Is not correct. Estimating the test effort is part of test planning  
+b) Is correct. This is an example of defining test conditions which is a part of test analysis  
+c) Is not correct. Using test techniques to derive coverage items is a part of test design  
+d) Is not correct. Reporting defects found during dynamic testing is a part of test execution  
+
+# metadata
+lo: 1.4.2
+k-level: K2
+points: 1
+correct: b
+
+## question
+Which of the following factors (i-v) have SIGNIFICANT influence on the test process?
+
+i. The SDLC
+ii. The number of defects detected in previous projects
+iii. The identified product risks
+iv. New regulatory requirements forcing formal white-box testing
+v. The test environment setup
+
+## answers
+a) i, ii have significant influence  
+b) i, iii, iv have significant influence  
+c) ii, iv, v have significant influence  
+d) iii, v have significant influence  
+
+## justification
+i. Is true. The SDLC has an influence on the test process  
+ii. Is false. The number of defects detected in previous projojects may have some influence, but this is not as significant as i, iii and iv  
+iii. Is true. The identified product risks are one of the most important factors influencing the test process  
+iv. Is true. Regulatory requirements are important factors influencing the test process  
+v. Is false. The test environment has no significant influence on the test process  
+
+Hence, b is correct.
+
+# metadata
+lo: 1.4.5
+k-level: K2
+points: 1
+correct: a, e
+
+## question
+Which TWO of the following tasks belong MAINLY to a testing role?
+
+## answers
+a) Configure test environments  
+b) Maintain the product backlog  
+c) Design solutions to new requirements  
+d) Create the test plan  
+e) Report on achieved coverage  
+
+## justification
+a) Is correct. This is done by the testers  
+b) Is not correct. The product backlog is built and maintained by the product owner  
+c) Is not correct. This is done by the development team  
+d) Is not correct. This is a managerial role  
+e) Is correct. This is done by the testers  
+
+# metadata
+lo: 1.5.1
+k-level: K2
+points: 1
+correct: b
+
+## question
+Which of the following skills (i-v) are the MOST important skills of a tester?
+
+i. Having domain knowledge
+ii. Creating a product vision
+iii. Being a good team player
+iv. Planning and organizing the work of the team
+v. Critical thinking
+
+## answers
+a) ii and iv are important  
+b) i, iii and v are important  
+c) i, ii and v are important  
+d) iii and iv are important  
+
+## justification
+i.  Is true. Having domain knowledge is an important tester skill  
+ii. Is false. This is a task of the business analyst together with the business representative  
+iii. Is true. Being a good team player is an important skill  
+iv. Is false. Planning and organizing the work of the team is a task of the test manager or, mostly in an Agile software development project, the whole team and not just the tester  
+v.  Is true. Critical thinking is one of the most important skills of testers  
+
+a) Is not correct  
+b) Is correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 1.5.2
+k-level: K1
+points: 1
+correct: d
+
+## question
+How is the whole team approach present in the interactions between testers and business  representatives?
+
+## answers
+a) Business representatives decide on test automation approaches  
+b) Testers help business representatives to define test strategy  
+c) Business representatives are not part of the whole team approach  
+d) Testers help business representatives to create suitable acceptance tests  
+
+## justification
+a) Is not correct. The test automation approach is defined by testers with the help of developers and business representatives  
+b) Is not correct. The test strategy is decided in collaboration with the developers  
+c) Is not correct. Testers, developers, and business representatives are part of the whole team approach  
+d) Is correct. Testers will work closely with business representatives to ensure that the desired quality levels are achieved. This includes supporting and collaborating with them to help them create suitable acceptance tests  
+
+# metadata
+lo: 2.1.2
+k-level: K1
+points: 1
+correct: d
+
+## question
+Consider the following rule: “for every SDLC activity there is a corresponding test activity”. In which SDLC models does this rule hold?
+
+## answers
+a) Only in sequential SDLC models  
+b) Only in iterative SDLC models  
+c) Only in iterative and incremental SDLC models  
+d) In sequential, incremental, and iterative SDLC models  
+
+## justification
+a) Is not correct  
+b) Is not correct  
+c) Is not correct  
+d) Is correct. This rule holds for all SDLC models  
+
+# metadata
+lo: 2.1.3
+k-level: K1
+points: 1
+correct: c
+
+## question
+Which of the following statements BEST describes the acceptance test-driven development (ATDD) approach?
+
+## answers
+a) In ATDD, acceptance criteria are typically created based on the given/when/then format  
+b) In ATDD, test cases are mainly created at component testing and are code-oriented  
+c) In ATDD, tests are created, based on acceptance criteria to drive the development of the related software  
+d) in ATDD, tests are based on the desired behavior of the software, which makes it easier for team members to understand them  
+
+## justification
+a) Is not correct. It is more often used in behavior-driven development(BDD)  
+b) Is not correct. It is the description of test-driven development (TDD)  
+c) Is correct. In acceptance test-driven development (ATDD) tests are written from acceptance criteria as part of the design process  
+d) Is not correct. It is used in BDD  
+
+# metadata
+lo: 2.1.5
+k-level: K2
+points: 1
+correct: d
+
+## question
+Which of the following is NOT an example of the shift left approach?
+
+## answers
+a) Reviewing the user requirements before they are formally accepted by the stakeholders  
+b) Writing a component test before the corresponding code is written  
+c) Executing a performance efficiency test for a component during component testing  
+d) Writing a test script before setting up the configuration management process  
+
+## justification
+a) Is not correct. Early review is an example of the shift left approach  
+b) Is not correct. TDD is an example of the shift left approach  
+c) Is not correct. Early non-functional testing is an example of the shift left approach  
+d) Is correct. Test scripts should be subject to configuration management, so it makes no sense to create the test scripts before this process is set up  
+
+# metadata
+lo: 2.1.6
+k-level: K2
+points: 1
+correct: c
+
+## question
+Which of the arguments below would you use to convince your manager to organize retrospectives at the end of each release cycle?
+
+## answers
+a) Retrospectives are very popular these days and clients would appreciate it if we added them to our processes  
+b) Organizing retrospectives will save the organization money because without them end user representatives do not provide immediate feedback about the product  
+c) Process weaknesses identified during the retrospective can be analyzed and serve as a to do list for the organization’s continuous process improvement program  
+d) Retrospectives embrace five values including courage and respect, which are crucial to maintain continuous improvement in the organization  
+
+## justification
+a) Is not correct. Retrospectives are more useful for identifying improvement opportunities and have little importance for clients  
+b) Is not correct. Business representatives are not giving feedback about the product itself. Therefore, there is no financial gain to the organization  
+c) Is correct. Regularly conducted retrospectives, when appropriate follow up activities occur, are critical to continual improvement of development and testing  
+d) Is not correct. Courage and respect are values of Extreme Programming and are not closely related to retrospectives  
+
+# metadata
+lo: 2.1.1
+k-level: K2
+points: 1
+correct: a
+
+## question
+Which types of failures (1-4) fit which test levels (A-D) BEST?
+1. Failures in system behavior as it deviates from the user’s business needs
+2. Failures in communication between components
+3. Failures in logic in a module
+4. Failures in not correctly implemented business rules
+
+A. Component testing
+B. Component integration testing
+C. System testing
+D. Acceptance testing
+
+## answers
+a) 1D, 2B, 3A, 4C  
+b) 1D, 2B, 3C, 4A  
+c) 1B, 2A, 3D, 4C  
+d) 1C, 2B, 3A, 4D  
+
+## justification
+Considering: 
+
+* The test basis for acceptance testing is the user’s business needs(1D)
+* Communication between components is tested during component integration testing (2B)
+* Failures in logic can be found during component testing (3A)
+* Business rules are the test basis for system testing (4C)
+
+a) Is correct  
+b) Is not correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 2.2.3
+k-level: K2
+points: 1
+correct: b
+
+## question
+You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows: 
+<TBD TABLE>
+Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.
+Which of the above tests are executed as regression tests?
+
+## answers
+a) Only 4, 7, 8, 9  
+b) Only 5, 7  
+c) Only 4, 6, 8  
+d) Only 5, 6  
+
+## justification
+Because TC1 and TC3 failed in Execution 1 (i.e., test (1) and test (3)), test (4) and test (6) are confirmation tests. 
+Because TC2 and TC3 failed in Execution 2 (i.e., tests (5) and (6)), test (8) and test (9) are also confirmation tests. 
+TC2 passed in Execution 1 (i.e., test (2)), so test (5) is a regression test. TC1 passed in the Execution 2 (i.e., test (4)), so test (7) is also a regression test.
+
+a) Is not correct  
+b) Is correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 3.1.2
+k-level: K2
+points: 1
+correct: a
+
+## question
+Which of the following is NOT a benefit of static testing?
+
+## answers
+a) Having less expensive defect management due to the ease of detecting defects later in the SDLC  
+b) Fixing defects found during static testing is generally much less expensive than fixing defects found during dynamic testing  
+c) Finding coding defects that might not have been found by only performing dynamic testing  
+d) Detecting gaps and inconsistencies in requirements  
+
+## justification
+a) Is correct. Defect management is no less expensive. Finding and fixing defects later in SDLC is more costly  
+b) Is not correct. This is a benefit of static testing  
+c) Is not correct. This is a benefit of static testing  
+d) Is not correct. This is a benefit of static testing  
+
+# metadata
+lo: 3.2.1
+k-level: K1
+points: 1
+correct: d
+
+## question
+Which of the following is a benefit of early and frequent feedback?
+
+## answers
+a) It improves the test process for future projects  
+b) It forces customers to prioritize their requirements based on agreed risks  
+c) It is the only way to measure the quality of changes  
+d) It helps avoid requirements misunderstandings  
+
+## justification
+a) Is not correct. Feedback can improve the test process, but if one only wants to improve future projects, the feedback does not need to come early or frequently  
+b) Is not correct. Feedback is not used to prioritize requirements  
+c) Is not correct. The quality of changes can be measured in multiple ways  
+d) Is correct. Early and frequent feedback allows for the early communication of potential quality problems  
+
+# metadata
+lo: 3.2.4
+k-level: K2
+points: 1
+correct: b
+
+## question
+The reviews being used in your organization have the following attributes: 
+
+* There is the role of a scribe
+* The main purpose is to evaluate quality
+* The meeting is led by the author of the work product
+* There is individual preparation
+* A review report is produced
+
+Which of the following review types is MOST likely being used?
+
+## answers
+a) Informal review  
+b) Walkthrough  
+c) Technical review  
+d) Inspection  
+
+## justification
+Considering the attributes:
+
+* Specified for walkthroughs, technical reviews, and inspections; thus, the reviews being performed cannot be informal reviews
+* The purpose of evaluating quality is one of the most important objectives of a walkthrough
+* This is not allowed for inspections and is typically not done in technical reviews. A moderator is needed in walkthroughs and is allowed for informal reviews
+* All types of reviews can include individual preparation (even informal reviews)
+* All types of reviews can produce a review report, although informal reviews do not require documentation
+
+a) Is not correct  
+b) Is correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 3.2.5
+k-level: K1
+points: 1
+correct: d
+
+## question
+Which of these statements is NOT a factor that contributes to successful reviews?
+
+## answers
+a) Participants should dedicate adequate time for the review  
+b) Splitting large work products into small parts to make the required effort less intense  
+c) Participants should avoid behaviors that might indicate boredom, exasperation, or hostility to other participants  
+d) Failures found should be acknowledged, appreciated, and handled objectively  
+
+## justification
+a) Is not correct. Adequate time for individuals is a success factor  
+b) Is not correct. Splitting work products into small adequate parts is a success factor  
+c) Is not correct. Avoiding behaviors that might indicate boredom, exasperation, etc. is a success factor  
+d) Is correct. During reviews one can find defects, not failures  
+
+# metadata
+lo: 4.1.1.
+k-level: K2
+points: 1
+correct: c
+
+## question
+Which of the following is a characteristic of experience-based test techniques?
+
+## answers
+a) Test cases are created based on detailed design information  
+b) Items tested within the interface code section are used to measure coverage  
+c) The techniques heavily rely on the tester’s knowledge of the software and the business domain  
+d) The test cases are used to identify deviations from the requirements  
+
+## justification
+a) Is not correct. This is a common characteristic of white-box test techniques. Test conditions, test cases, and test data are derived from a test basis that may include code, software architecture, detailed design, or any other source of information regarding the structure of the software.  
+b) Is not correct. This is a common characteristic of white-box test techniques. Coverage is measured based on the items tested within a selected structure and the technique applied to the test basis  
+c) Is correct. This is a common characteristic of experience-based testtechniques. This knowledge and experience include expected use ofthe software, its environment, likely defects, and the distribution of those defects is used to define tests  
+d) Is not correct. This is a common characteristic of black-box test techniques. Test cases may be used to detect gaps within requirements and the implementation of the requirements, as well as deviations from the requirements  
+
+# metadata
+lo: 4.2.1
+k-level: K3
+points: 1
+correct: b
+
+## question
+You are testing a simplified apartment search form which has only two search criteria:
+
+* floor (with three possible options: ground floor; first floor; second or higher floor)
+* garden type (with three possible options: no garden; small garden; large garden)
+
+Only apartments on the ground floor have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.
+Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests.
+What is the minimal number of test cases to achieve 100% EP coverage?
+
+## answers
+a) 3  
+b) 4  
+c) 5  
+d) 6  
+
+## justification
+“Small garden” and “large garden” can go only with “ground floor”, so we need two test cases with “ground floor” which cover these two “garden type” partitions. We need two more test cases to cover the two other “floor” partitions and a remaining ”garden type” partition of “no garden”. 
+We need a total of four test cases:
+TC1 (ground floor, small garden)
+TC2 (ground floor, large garden)
+TC3 (first floor, no garden)
+TC4 (second or higher floor, no garden)
+
+a) Is not correct  
+b) Is correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 4.2.2.
+k-level: K3
+points: 1
+correct: a
+
+## question
+You are testing a system that calculates the final course grade for a given student.
+The final grade is assigned based on the final result, according to the following rules:
+
+* 0 – 50 points: failed
+* 51 – 60 points: fair
+* 61 – 70 points: satisfactory
+* 71 – 80 points: good
+* 81 – 90 points: very good
+* 91 – 100 points: excellent
+
+You have prepared the following set of test cases:
+<TBD TABLE>
+What is the 2-value Boundary Value Analysis (BVA) coverage for the final result that is achieved with the existing test cases?
+
+## answers
+a) 50%  
+b) 60%  
+c) 33.3%  
+d) 100%  
+
+## justification
+There are 12 boundary values for the final result values: 0, 50, 51, 60, 61, 70, 71, 80, 81, 90, 91, and 100. The test cases cover six of them (TC1 – 91, TC2 – 50, TC3 – 81, TC4 – 60, TC5 – 70 and TC7 – 51). Therefore, the test cases cover 6/12 = 50%
+
+ a) Is correct
+ b) Is not correct
+ c) Is not correct
+ d) Is not correct
+
+# metadata
+lo: 4.2.3
+k-level: K3
+points: 1
+correct: d
+
+## question
+Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.
+The implemented features are as follows:
+* Anyone can rent a bicycle, but members receive a 20% discount
+* However, if the return deadline is missed, the discount is no longer available
+* After 15 rentals, members get a gift: a T-Shirt
+
+Decision table describing the implemented features looks as follows:
+<TBD TABLE>
+
+Based ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?
+
+## answers
+a) R4  
+b) R2  
+c) R6  
+d) R8  
+
+## justification
+a) Is not correct. A member without a missed deadline can get a discount and a gift T-Shirt after 15 bicycle rentals  
+b) Is not correct. A member without a missed deadline can get a discount but no gift T-Shirt until they rented a bicycle 15 times  
+c) Is not correct. Non-members cannot get a discount, even if they did not miss a deadline yet  
+d) Is correct. No discount as a non-member that has also missed a deadline, but only members can receive a gift T-Shirt. Hence, the action is not correct  
+
+# metadata
+lo: 4.2.4
+k-level: K3
+points: 1
+correct: d
+
+## question
+You test a system whose lifecycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state.
+<TBD IMAGE>
+What is the MINIMAL number of test cases to achieve valid transitions coverage?    
+
+## answers
+a) 4  
+b) 2  
+c) 7  
+d) 3  
+
+## justification
+“test” and “error” transitions cannot occur in one test case. Neither can both “done” transitions. This means we need at least three test cases to achieve transition coverage. For example:
+TC1: test, done
+TC2: run, error, done
+TC3: run, pause, resume, pause, done
+
+a) Is not correct  
+b) Is not correct  
+c) Is not correct  
+d) Is correct  
+
+# metadata
+lo: 4.3.1
+k-level: K2
+points: 1
+correct: a
+
+## question
+Your test suite achieved 100% statement coverage. What is the consequence of this fact?
+
+## answers
+a) Each instruction in the code that contains a defect has been executed at least once  
+b) Any test suite containing more test cases than your test suite will also achieve 100% statement coverage  
+c) Each path in the code has been executed at least once  
+d) Every combination of input values has been tested at least once  
+
+## justification
+a) Is correct. Since 100% statement coverage is achieved, every statement, including the ones with defects, must have been executed and evaluated at least once  
+b) Is not correct. Coverage depends on what is tested, not on the number of test cases. For example, for code “if (x==0) y=1”, one test case (x=0) achieves 100% statement coverage, but two test cases (x=1) and (x=2) together achieve only 50% statement coverage  
+c) Is not correct. If there is a loop in the code there may be an infinite number of possible paths, so it is not possible to execute all the possible paths in the code  
+d) Is not correct. Exhaustive testing is not possible (see the seven testing principles section in the syllabus). For example, for code “input x; print x” any single test with arbitrary x achieves 100% statement coverage, but covers one input value  
+
+# metadata
+lo: 4.3.3
+k-level: K2
+points: 1
+correct: d
+
+## question
+Which of the following is NOT true for white-box testing?
+
+## answers
+a) During white-box testing the entire software implementation is considered  
+b) White-box coverage metrics can help identify additional tests to increase code coverage  
+c) White-box test techniques can be used in static testing  
+d) White-box testing can help identify gaps in requirements implementation  
+
+## justification
+a) Is not correct. The fundamental strength of white-box test techniques is that the entire software implementation is taken into account during testing  
+b) Is not correct. White-box coverage measures provide an objective measure of coverage and provide the necessary information to allow additional tests to be generated to increase this coverage  
+c) Is not correct. White-box test techniques can be used to perform reviews (static testing)  
+d) Is correct. This is the weakness of the white-box test techniques. They are not able to identify the missing implementation, because they are based solely on the test object structure, not on the requirements specification  
+
+# metadata
+lo: 4.4.1
+k-level: K2
+points: 1
+correct: a
+
+## question
+Which of the following BEST describes the concept behind error guessing?
+
+## answers
+a) Error guessing involves using your knowledge and experience of defects found in the past and typical errors made by developers  
+b) Error guessing involves using your personal experience of development and the errors you made as a developer  
+c) Error guessing requires you to imagine that you are the user of the test object and to guess errors the user could make interacting with it  
+d) Error guessing requires you to rapidly duplicate the development task to identify the sort of errors a developer might make  
+
+## justification
+a) Is correct. The basic concept behind error guessing is that the tester tries to guess what errors may have been made by the developer and what defects may be in the test object based on past experience (and sometimes checklists)  
+b) Is not correct. Although a testers who used to be a developer may use their personal experience to help them when performing error guessing, the test technique is not based on prior knowledge of development  
+c) Is not correct. Error guessing is not a usability technique for guessing how users may fail to interact with the test object  
+d) Is not correct. Duplicating the development task has several flaws that make it impractical, such as the tester having equivalent skills to the developer and the time involved to perform the development. It is not error guessing  
+
+# metadata
+lo: 4.4.2
+k-level: K2
+points: 1
+correct: c
+
+## question
+In your project there has been a delay in the release of a brand-new application and test execution started late, but you have very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be presented. Which test technique fits BEST in this situation?
+
+## answers
+a) Checklist-based testing  
+b) Error guessing  
+c) Exploratory testing  
+d) Branch testing  
+
+## justification
+a) Is not correct. This is a new product. You probably do not have achecklist yet and test conditions might not be known due to missing requirements  
+b) Is not correct. This is a new product. You probably do not have enough information to make correct error guesses  
+c) Is correct. Exploratory testing is most useful when there are few known specifications and/or there is a pressing timeline for testing  
+d) Is not correct. Branch testing is time-consuming, and your management is asking about some test results now. Also, branch testing does not involve domain knowledge  
+
+# metadata
+lo: 4.5.2
+k-level: K2
+points: 1
+correct: b
+
+## question
+Which of the following BEST describes the way acceptance criteria can be documented?
+
+## answers
+a) Performing retrospectives to determine the actual needs of the stakeholders regarding a given user story  
+b) Using the given/when/then format to describe an example test condition related to a given user story  
+c) Using verbal communication to reduce the risk of misunderstanding the acceptance criteria by others  
+d) Documenting risks related to a given user story in a test plan to facilitate the risk-based testing of a given user story  
+
+## justification
+a) Is not correct. Retrospectives are used to capture lessons learned and to improve the development and testing process, not to document the acceptance criteria  
+b) Is correct. This is the standard way to document acceptance criteria  
+c) Is not correct. Verbal communication does not allow to physically document the acceptance criteria as part of a user story (”card” aspect in the 3C’s model)  
+d) Is not correct. Acceptance criteria are related to a user story, not a test plan. Also, acceptance criteria are the conditions that have to be fulfilled to decide if the user story is complete. Risks are not such conditions  
+
+# metadata
+lo: 4.5.3
+k-level: K3
+points: 1
+correct: a
+
+## question
+Consider the following user story:
+*As an Editor*
+*I want to review content before it is published*
+*so that I can assure the grammar is correct*
+
+and its acceptance criteria:
+
+* The user can log in to the content management system with "Editor" role
+* The editor can view existing content pages
+* The editor can edit the page content
+* The editor can add markup comments
+* The editor can save changes
+* The editor can reassign to the "content owner" role to make updates
+
+Which of the following is the BEST example of an ATDD test for this user story?
+
+## answers
+a) Test if the editor can save the document after edit the page content  
+b) Test if the content owner can log in and make updates to the content  
+c) Test if the editor can schedule the edited content for publication  
+d) Test if the editor can reassign to another editor to make updates  
+
+## justification
+a) Is correct. This test covers two acceptance criteria: one about editing the document and one about saving changes  
+b) Is not correct. Acceptance criteria cover the editor activities, not the content owner activities  
+c) Is not correct. Scheduling the edited content for publication may be a nice feature, but it is not covered by the acceptance criteria  
+d) Is not correct. Acceptance criteria state about reassigning from an editor to the content owner, not to another editor  
+
+# metadata
+lo: 5.1.2
+k-level: K1
+points: 1
+correct: c
+
+## question
+How do testers add value to iteration and release planning?
+
+## answers
+a) Testers determine the priority of the user stories to be developed  
+b) Testers focus only on the functional aspects of the system to be tested  
+c) Testers participate in the detailed risk identification and risk assessment of user stories  
+d) Testers guarantee the release of high-quality software through early test design during the release planning  
+
+## justification
+a) Is not correct. Priorities for user stories are determined by the business representative together with the development team  
+b) Is not correct. Testers focus on both functional and non-functional aspects of the system to be tested  
+c) Is correct. According to the syllabus, this is one of the ways testers add value to iteration and release planning  
+d) Is not correct. Early test design is not part of release planning. Early test design does not automatically guarantee the release of quality software  
+
+# metadata
+lo: 5.1.3
+k-level: K2
+points: 1
+correct: c,e
+
+## question
+Which TWO of the following options are the exit criteria for testing a system?
+
+## answers
+a) Test environment readiness  
+b) The ability to log in to the test object by the tester  
+c) Estimated defect density is reached  
+d) Requirements are translated into given/when/then format  
+e) Regression tests are automated  
+
+## justification
+a) Is not correct. Test environment readiness is a resource availability criterion; hence it belongs to the entry criteria  
+b) Is not correct. This is a resource availability criterion; hence it belongs to the entry criteria  
+c) Is correct. Estimated defect density is a measure of diligence; hence it belongs to the exit criteria.  
+d) Is not correct. Requirements translated into a given format result in testable requirements; hence it belongs to the entry criteria  
+e) Is correct. Automation of regression tests is a completion criterion; hence it belongs to the exit criteria  
+
+# metadata
+lo: 5.1.4
+k-level: K3
+points: 1
+correct: d
+
+## question
+Your team uses the three-point estimation technique to estimate the test effort for a new high-risk feature. The following estimates were made:
+
+* Most optimistic estimation: 2 person-hours
+* Most likely estimation: 11 person-hours
+* Most pessimistic estimation: 14 person-hours. 
+
+What is the final estimate?
+
+## answers
+a) 9 person-hours  
+b) 14 person-hours  
+c) 11 person-hours  
+d) 10 person-hours  
+
+## justification
+In the three-point estimation technique:
+E = (optimistic + 4*most likely + pessimistic)/6
+E = (2+(4*11)+14)/6 = 10
+
+a) Is not correct  
+b) Is not correct  
+c) Is not correct  
+d) Is correct  
+
+# metadata
+lo: 5.1.5
+k-level: K3
+points: 1
+correct: a
+
+## question
+You are testing a mobile application that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a smaller number means a higher priority), and dependencies:
+<TBD TABLE>
+Which of the following test cases should be executed as the third one?
+
+## answers
+a) TC 003  
+b) TC 005  
+c) TC 002  
+d) TC 001  
+
+## justification
+Test TC 001 must come first, followed by TC 002, to satisfy dependencies. Afterwards, TC 003 to satisfy priority and then TC 004, followed by TC 005
+
+a) Is correct  
+b) Is not correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 5.1.7
+k-level: K2
+points: 1
+correct: a
+
+## question
+Consider the following test categories (1-4) and agile testing quadrants (A-D):
+1. Usability testing
+2. Component testing
+3. Functional testing
+4. Reliability testing
+
+A. Agile testing quadrant Q1: technology facing, supporting the development team
+B. Agile testing quadrant Q2: business facing, supporting the development team
+C. Agile testing quadrant Q3: business facing, critique the product
+D. Agile testing quadrant Q4: technology facing, critique the product
+How do the following test categories map onto the agile testing quadrants?
+
+## answers
+a) 1C, 2A, 3B, 4D  
+b) 1D, 2A, 3C, 4B  
+c) 1C, 2B, 3D, 4A  
+d) 1D, 2B, 3C, 4A  
+
+## justification
+Considering:
+
+* Usability testing is in Q3 (1 – C)
+* Component testing is in Q1 (2 – A)
+* Functional testing is in Q2 (3 – B)
+* Reliability testing is in Q4 (4 – D)
+
+a) Is correct  
+b) Is not correct  
+c) Is not correct  
+d) Is not correct  
+
+# metadata
+lo: 5.2.4
+k-level: K2
+points: 1
+correct: c
+
+## question
+During a risk analysis the following risk was identified and assessed:
+Risk: Response time is too long to generate a report
+Risk likelihood: medium; risk impact: high
+Response to risk:
+
+  * An independent test team performs performance testing during system testing
+  * A selected sample of end users performs alpha and beta acceptance testing before the release
+
+What measure is proposed to be taken in response to this analyzed risk?  
+
+## answers
+a) Risk acceptance  
+b) Contingency plan  
+c) Risk mitigation  
+d) Risk transfer  
+
+## justification
+a) Is not correct. We do not accept the risk; concrete actions are proposed  
+b) Is not correct. No contingency plans are proposed  
+c) Is correct. The proposed actions are related to testing, which is a form of risk mitigation  
+d) Is not correct. Risk is not transferred but mitigated  
+
+# metadata
+lo: 5.3.3
+k-level: K2
+points: 1
+correct: d
+
+## question
+Which tool can be used by an agile team to show the amount of work that has been completed and the amount of total work remaining for a given iteration?
+
+## answers
+a) Acceptance criteria  
+b) Defect report  
+c) Test completion report  
+d) Burndown chart  
+
+## justification
+a) Is not correct. Acceptance criteria are the conditions used to decide whether the user story is ready. They cannot show work progress  
+b) Is not correct. Defect reports inform about the defects. They do not show work progress  
+c) Is not correct. Test completion report can be created after the iteration is finished, so it will not show the progress continuously within an iteration  
+d) Is correct. Burndown charts are a graphical representation of work left to do versus time remaining. They are updated daily, so they can continuously show the work progress  
+
+# metadata
+lo: 5.4.1
+k-level: K2
+points: 1
+correct: c
+
+## question
+You need to update one of the automated test scripts to be in line with a new requirement. Which process indicates that you create a new version of the test script in the test repository?
+
+## answers
+a) Traceability management  
+b) Maintenance testing  
+c) Configuration management  
+d) Requirements engineering  
+
+## justification
+a) Is not correct. Traceability is the relationship between two or more work products, not between different versions of the same work product  
+b) Is not correct. Maintenance testing is about testing changes; it is not related closely to versioning  
+c) Is correct. To support testing, configuration management may involve the version control of all test items  
+d) Is not correct. Requirements engineering is the elicitation, documentation, and management of requirements; it is not closely related to test script versioning  
+
+# metadata
+lo: 5.5.1
+k-level: K3
+points: 1
+correct: c
+
+## question
+You received the following defect report from the developers stating that the anomaly described in this test report is not reproducible.
+*Application hangs up*  
+*2022-May-03 – John Doe – Rejected*  
+*The application hangs up after entering “Test input: $ä” in the Name field on the new user creation screen. Tried to log off, log in with test_admin01 account, same issue. Tried with other test admin accounts, same issue. No error message received; log (see attached) contains fatal error notification. Based on the test case TC-1305, the application should accept the provided input and create the user. Please fix with high priority, this feature is related to REQ-0012, which is a critical new business requirement.*  
+
+What critical information is MISSING from this test report that would have been useful for the developers?
+
+## answers
+a) Expected result and actual result  
+b) References and defect status  
+c) Test environment and test item  
+d) Priority and severity  
+
+## justification
+a) Is not correct. The expected result is “the application should accept the provided input and create the user”. The actual result is “The application hangs up after entering “Test input. $ä””  
+b) Is not correct. There is a reference to the test case and to the related requirement and it states that the defect is rejected. Also, the defect status would not be very helpful for the developers  
+c) Is correct. We do not know in which test environment the anomaly was detected, and we also do not know which application (and its version) is affected  
+d) Is not correct. The defect report states that the anomaly is urgent, that it is a global issue (i.e., many, if not all, test administration accounts are affected) and states the impact is high for business stakeholders  
+
+# metadata
+lo: 6.1.1
+k-level: K2
+points: 1
+correct: c
+
+## question
+Which test activity does a data preparation tool support?
+
+## answers
+a) Test monitoring and control  
+b) Test analysis and design  
+c) Test implementation and execution  
+d) Test completion  
+
+## justification
+a) Is not correct. Test monitoring involves the ongoing checking of all activities and comparison of actual progress against the test plan. Test control involves taking the actions necessary to meet the test objectives of the test plan. No test data are prepared during these activities  
+b) Is not correct. Test analysis includes analyzing the test basis to identify test conditions and prioritize them. Test design includes elaborating the test conditions into test cases and other testware. Test data are not prepared during these activities  
+c) Is correct. Test implementation includes creating or acquiring the testware necessary for test execution (e.g., test data)  
+d) Is not correct. Test completion activities occur at project milestones (e.g., release, end of iteration, test level completion), so it is too late for preparing test data  
+
+# metadata
+lo: 6.2.1
+k-level: K1
+points: 1
+correct: b
+
+## question
+Which item correctly identifies a potential risk of performing test automation?
+
+## answers
+a) It may introduce unknown regressions in production  
+b) Sufficient efforts to maintain testware may not be properly allocated  
+c) Testing tools and associated testware may not be sufficiently relied upon  
+d) It may reduce the time allocated for manual testing  
+
+## justification
+a) Is not correct. Test automation does not introduce unknown regressions in production  
+b) Is correct. Wrong allocation of effort to maintain testware is a risk  
+c) Is not correct. Test tools must be selected so that they and their testware can be relied upon  
+d) Is not correct. The primary goal of test automation is to reduce manual testing. So, this is a benefit, not a risk  

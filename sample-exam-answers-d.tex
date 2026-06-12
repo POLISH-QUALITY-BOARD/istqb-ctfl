@@ -1,0 +1,28 @@
+\documentclass{istqb}
+\usepackage{markdown}
+\markdownSetup{
+  import = {
+    istqb/sample-exam/answers = {metadata, answers@v2 as answers}
+  }
+}
+% Metadata
+\markdownInput[snippet=metadata]{sample-exam-answers-d/metadata.yml}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright Notice
+\markdownInput{sample-exam-en/copyright.md}
+
+% Revision History
+\markdownInput{sample-exam-en/revisions.md}
+
+% Table of Contents
+\istqbtableofcontents
+
+% Document Text
+\markdownInput[snippet=answers]{sample-exam-answers-d/questions.yml}
+
+\end{document}

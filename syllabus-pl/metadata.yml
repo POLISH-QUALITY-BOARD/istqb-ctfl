@@ -1,0 +1,68 @@
+# Metadata for ISTQB CTFL Syllabus 4.0.1 – Polish translation
+schema_version: "1.0"
+
+document:
+  title: "Certyfikowany Tester Poziom Podstawowy (CTFL) Sylabus"
+  title_en: "Certified Tester Foundation Level (CTFL) Syllabus"
+  version: "4.0.1"
+  translation_version: "PL 4.0.1.0"
+  language: "pl"
+  source_language: "en"
+  date_published: "2025-09-15"
+  date_translation_published: "2026-03-14"
+  pages: 80
+
+publisher:
+  name: "International Software Testing Qualifications Board"
+  abbreviation: "ISTQB®"
+  website: "https://www.istqb.org"
+
+translation:
+  publisher: "Polish Quality Board (PQB)"
+  translator: "Adam Roman"
+  reviewers:
+    - "Adam Ścierski"
+    - "Monika Petri-Starego"
+
+copyright:
+  holder: "International Software Testing Qualifications Board (ISTQB®)"
+  co_holder: "Polish Quality Board (PQB)"
+  years: [1999, 2005, 2007, 2010, 2011, 2018, 2019, 2023, 2024]
+
+authors_v401:
+  - "Renzo Cerquozzi"
+  - "Wim Decoutere"
+  - "Jean-François Riverin"
+  - "Arnika Hryszko"
+  - "Martin Klonk"
+  - "Meile Posthuma"
+  - chair: "Eric Riou du Cosquer"
+  - "Adam Roman"
+  - "Lucjan Stapp"
+  - vice_chair: "Stephanie Ulrich"
+  - "Eshraka Zakaria"
+
+exam:
+  duration_minutes: 60
+  questions: 40
+  pass_score_percent: 65
+  total_training_minutes: 1135
+  chapters:
+    - id: 1
+      title: "Podstawy testowania"
+      minutes: 180
+    - id: 2
+      title: "Testowanie w cyklu wytwarzania oprogramowania"
+      minutes: 130
+    - id: 3
+      title: "Testowanie statyczne"
+      minutes: 80
+    - id: 4
+      title: "Analiza i projektowanie testów"
+      minutes: 390
+    - id: 5
+      title: "Zarządzanie czynnościami testowymi"
+      minutes: 335
+    - id: 6
+      title: "Narzędzia testowe"
+      minutes: 20
