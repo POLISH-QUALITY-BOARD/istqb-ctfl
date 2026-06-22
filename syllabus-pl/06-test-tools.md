@@ -4,7 +4,7 @@
 
 automatyzacja testów
 
-#### Cele nauczania dla rozdziału 6 {.learning-objectives}
+#### Cele nauczania dla rozdziału {.learning-objectives}
 
 1. Narzędzia wspomagające testowanie
     1. (K2) Wyjaśnić, w jaki sposób różnego typu narzędzia testowe wspomagają testowanie.

@@ -4,7 +4,7 @@
 
 analiza testów, awaria, cel testów, dane testowe, debugowanie, defekt, implementacja testów, jakość, monitorowanie testów, nadzór nad testami, planowanie testów, podstawa testów, podstawowa przyczyna, pokrycie, pomyłka, procedura testowa, proces testowy, projektowanie testów, przedmiot testów, przypadek testowy, śledzenie powiązań, testalia, testowanie, ukończenie testów, walidacja, warunek testowy, weryfikacja, wykonywanie testów, wynik testu, zapewnienie jakości
 
-#### Cele nauczania dla rozdziału 1: {.learning-objectives}
+#### Cele nauczania dla rozdziału: {.learning-objectives}
 
 1. Co to jest testowanie?
     1. (K1) Wskazać typowe cele testów.

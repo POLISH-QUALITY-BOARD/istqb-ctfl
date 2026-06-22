@@ -4,7 +4,7 @@
 
 analiza ryzyka, identyfikacja ryzyka, kontrola ryzyka, kryteria wejścia, kryteria wyjścia, kwadranty testowe, łagodzenie ryzyka, monitorowanie ryzyka, monitorowanie testów, nadzór nad testami, ocena ryzyka, piramida testów, plan testów, planowanie testów, podejście do testowania, poziom ryzyka, raport o defekcie, raport o postępie testów, ryzyko, ryzyko produktowe, ryzyko projektowe, strategia testów, sumaryczny raport z testów, testowanie oparte na ryzyku, zarządzanie defektami, zarządzanie ryzykiem
 
-#### Cele nauczania dla rozdziału 5 {.learning-objectives}
+#### Cele nauczania dla rozdziału {.learning-objectives}
 
 1. Planowanie testów
     1. (K2) Omówić na przykładach cel i treść planu testów.

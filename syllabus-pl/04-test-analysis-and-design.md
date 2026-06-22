@@ -4,7 +4,7 @@
 
 analiza wartości brzegowych, białoskrzynkowa technika testowania, czarnoskrzynkowa technika testowania, element pokrycia, kryteria akceptacji, podejście do testowania oparte na współpracy, podział na klasy równoważności, pokrycie, pokrycie gałęzi, pokrycie instrukcji kodu, technika testowania oparta na doświadczeniu, technika testowania, testowanie eksploracyjne, testowanie przejść pomiędzy stanami, testowanie w oparciu o tablicę decyzyjną, testowanie w oparciu o listę kontrolną, wytwarzanie sterowane testami akceptacyjnymi, zgadywanie błędów
 
-#### Cele nauczania dla rozdziału 4 {.learning-objectives}
+#### Cele nauczania dla rozdziału {.learning-objectives}
 
 1. Ogólna charakterystyka technik testowania
     1. (K2) Rozróżniać czarnoskrzynkowe techniki testowania, białoskrzynkowe techniki testowania oraz techniki testowania oparte na doświadczeniu.

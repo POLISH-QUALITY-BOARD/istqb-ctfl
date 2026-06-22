@@ -4,7 +4,7 @@
 
 poziom testów, przedmiot testów, przesunięcie w lewo, testowanie akceptacyjne, testowanie białoskrzynkowe, testowanie czarnoskrzynkowe, testowanie funkcjonalne, testowanie integracji modułów, testowanie integracji systemów, testowanie integracyjne, testowanie modułowe, testowanie niefunkcjonalne, testowanie pielęgnacyjne, testowanie potwierdzające, testowanie regresji, testowanie systemowe, typ testów
 
-#### Cele nauczania dla rozdziału 2 {.learning-objectives}
+#### Cele nauczania dla rozdziału {.learning-objectives}
 
 1. Testowanie w kontekście cyklu wytwarzania oprogramowania
    1. (K2) Wyjaśnić wpływ wybranego modelu cyklu wytwarzania oprogramowania na testowanie.

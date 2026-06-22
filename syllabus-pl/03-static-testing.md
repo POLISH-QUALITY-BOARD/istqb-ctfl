@@ -4,7 +4,7 @@
 
 analiza statyczna, anomalia, inspekcja, przegląd, przegląd formalny, przegląd nieformalny, przegląd techniczny, przejrzenie, testowanie dynamiczne, testowanie statyczne
 
-#### Cele nauczania dla rozdziału 3 {.learning-objectives}
+#### Cele nauczania dla rozdziału {.learning-objectives}
 
 1. Podstawy testowania statycznego
     1. (K1) Rozpoznawać typy produktów pracy, które mogą być badane za pomocą testowania statycznego.
