@@ -12,8 +12,8 @@ jobs:
   build:
     name: Build LaTeX documents
     # A Git ref in the repository istqb_product_base, which should be used for the CI definition
-    uses: istqborg/istqb_product_base/.github/workflows/compile.yml@main
+    uses: istqborg/istqb_product_base/.github/workflows/compile.yml@pl-translation
     with:
       skip-prerelease: true
       # A Git ref in the repository istqb_product_base, which should be used for the LaTeX+Markdown template
-      base-version: main
+      base-version: pl-translation

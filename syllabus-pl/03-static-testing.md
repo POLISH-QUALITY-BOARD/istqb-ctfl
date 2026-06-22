@@ -1,23 +1,23 @@
-# 3. Testowanie statyczne – 80 minut
+# Testowanie statyczne – 80 minut
 
-## Słowa kluczowe
+#### Słowa kluczowe
 
 analiza statyczna, anomalia, inspekcja, przegląd, przegląd formalny, przegląd nieformalny, przegląd techniczny, przejrzenie, testowanie dynamiczne, testowanie statyczne
 
-## Cele nauczania dla rozdziału 3
+#### Cele nauczania dla rozdziału 3 {.learning-objectives}
 
-3.1 Podstawy testowania statycznego
-    FL-3.1.1 (K1) Rozpoznawać typy produktów pracy, które mogą być badane za pomocą testowania statycznego.
-    FL-3.1.2 (K2) Wyjaśnić korzyści wynikające z testowania statycznego.
-    FL-3.1.3 (K2) Porównać i zestawiać ze sobą testowanie statyczne i testowanie dynamiczne.
-3.2 Informacje zwrotne i proces przeglądu
-    FL-3.2.1 (K1) Pamiętać korzyści wynikające z wczesnego i częstego otrzymywania informacji zwrotnych od interesariuszy.
-    FL-3.2.2 (K2) Podsumować czynności wykonywane w ramach procesu przeglądu.
-    FL-3.2.3 (K1) Pamiętać, jakie obowiązki są przypisane do najważniejszych ról w trakcie wykonywania przeglądów.
-    FL-3.2.4 (K2) Porównać i zestawiać ze sobą różne typy przeglądów.
-    FL-3.2.5 (K1) Pamiętać, jakie czynniki decydują o powodzeniu przeglądu.
+1. Podstawy testowania statycznego
+    1. (K1) Rozpoznawać typy produktów pracy, które mogą być badane za pomocą testowania statycznego.
+    2. (K2) Wyjaśnić korzyści wynikające z testowania statycznego.
+    3. (K2) Porównać i zestawiać ze sobą testowanie statyczne i testowanie dynamiczne.
+2. Informacje zwrotne i proces przeglądu
+    1. (K1) Pamiętać korzyści wynikające z wczesnego i częstego otrzymywania informacji zwrotnych od interesariuszy.
+    2. (K2) Podsumować czynności wykonywane w ramach procesu przeglądu.
+    3. (K1) Pamiętać, jakie obowiązki są przypisane do najważniejszych ról w trakcie wykonywania przeglądów.
+    4. (K2) Porównać i zestawiać ze sobą różne typy przeglądów.
+    5. (K1) Pamiętać, jakie czynniki decydują o powodzeniu przeglądu.
 
-## 3.1. Podstawy testowania statycznego
+## Podstawy testowania statycznego
 
 W przeciwieństwie do testowania dynamicznego, w testowaniu statycznym nie uruchamia się testowanego oprogramowania. Kod, specyfikacja, projekt architektury lub inne produkty pracy są oceniane poprzez badanie manualne (przeglądy) lub przy pomocy narzędzia (analiza statyczna). Cele testowania statycznego obejmują poprawę jakości, wykrywanie defektów oraz ocenę takich charakterystyk jak czytelność, kompletność, poprawność, testowalność i spójność. Testowanie statyczne można stosować zarówno do weryfikacji, jak i walidacji. 
 
@@ -29,13 +29,13 @@ Analiza statyczna pozwala zidentyfikować problemy przed testowaniem dynamicznym
 
 Chociaż jest ona w dużej mierze wykorzystywana do wykrywania konkretnych defektów w kodzie, służy również do oceny łatwości pielęgnacji i poziomu zabezpieczeń. Inne przykłady narzędzi do analizy statycznej to narzędzia do sprawdzania pisowni i do oceny czytelności tekstu.
 
-### 3.1.1. Produkty pracy badane metodą testowania statycznego
+### Produkty pracy badane metodą testowania statycznego
 
 Za pomocą testowania statycznego można zbadać prawie każdy produkt pracy. Przykłady obejmują dokumenty specyfikacji wymagań, kod źródłowy, plany testów, przypadki testowe,
 elementy backlogu produktu, karty opisu testów, dokumentację projektu, umowy i modele. Każdy produkt pracy, który można przeczytać i zrozumieć, może być przedmiotem przeglądu.
 Jednak w przypadku analizy statycznej produkty pracy muszą mieć strukturę, względem której można je sprawdzić (np. modele, kod lub tekst o formalnej składni). Produkty pracy, które nie nadają się do testowania statycznego, to między innymi te, które są trudne do interpretacji przez ludzi i nie powinny być analizowane za pomocą narzędzi (np. kod wykonywalny lub kod innych firm, którego nie można badać z powodów prawnych).
 
-### 3.1.2. Korzyści wynikające z testowania statycznego
+### Korzyści wynikające z testowania statycznego
 
 Testowanie statyczne pozwala wykryć defekty na najwcześniejszych etapach cyklu wytwarzania oprogramowania, spełniając zasadę wczesnego testowania (patrz podrozdział 1.3). Pozwala ono również identyfikować defekty, których nie można wykryć za pomocą testowania dynamicznego (np. martwy kod, błędnie zastosowane wzorce projektowe, defekty w niewykonywalnych
 produktach pracy). 
@@ -46,7 +46,7 @@ Mimo że wdrożenie przeglądów może być kosztowne, całkowite koszty projekt
 
 Analiza statyczna pozwala wykrywać niektóre defekty w kodzie skuteczniej niż testowanie dynamiczne, co zazwyczaj skutkuje mniejszą liczbą tego rodzaju defektów i mniejszym ogólnym wysiłkiem związanym z wytwarzaniem oprogramowania.
 
-### 3.1.3. Różnice między testowaniem statycznym a dynamicznym
+### Różnice między testowaniem statycznym a dynamicznym
 
 Testowanie statyczne i testowanie dynamiczne wzajemnie się uzupełniają. Mają podobne cele, takie jak wykrywanie defektów w produktach pracy (patrz sekcja 1.1.1), ale różnią się pod
 pewnymi względami opisanymi poniżej:
@@ -68,16 +68,16 @@ Typowe defekty, które można wykryć łatwiej lub taniej za pomocą testowania 
 * określone rodzaje luk w zabezpieczeniach (np. przepełnienie bufora),
 * braki lub nieścisłości w pokryciu podstawy testów (np. brakujące testy dla kryterium akceptacji).
 
-## 3.2. Informacje zwrotne i proces przeglądu
+## Informacje zwrotne i proces przeglądu
 
-### 3.2.1. Korzyści wynikające z wczesnego i częstego otrzymywania informacji zwrotnych od interesariuszy
+### Korzyści wynikające z wczesnego i częstego otrzymywania informacji zwrotnych od interesariuszy
 
 Wczesne i częste informacje zwrotne pozwalają na wczesne zgłaszanie potencjalnych problemów związanych z jakością. Jeśli zaangażowanie interesariuszy w cyklu wytwarzania oprogramowania jest niewielkie, opracowywany produkt może nie spełniać pierwotnej lub aktualnej wizji interesariuszy. Niezrealizowanie oczekiwań interesariuszy może skutkować kosztownymi przeróbkami, niedotrzymaniem terminów, wzajemnym obwinianiem się, a nawet całkowitym
 niepowodzeniem projektu.
 
 Częste informacje zwrotne od interesariuszy we wszystkich fazach cyklu wytwarzania oprogramowania mogą zapobiec nieporozumieniom dotyczącym wymagań i zapewnić, że zmiany w wymaganiach zostaną zrozumiane i wdrożone wcześniej. Pomaga to zespołowi wytwórczemu lepiej zrozumieć, co tworzy. Pozwala mu także skupić się na tych funkcjach, które zapewniają największą wartość dla interesariuszy i mają najbardziej pozytywny wpływ na zidentyfikowane ryzyka.
 
-### 3.2.2. Czynności wykonywane w procesie przeglądu
+### Czynności wykonywane w procesie przeglądu
 
 Norma ISO/IEC 20246 definiuje ogólny proces przeglądu, który zapewnia ustrukturyzowane, ale elastyczne ramy, na podstawie których można dostosować konkretny proces przeglądu do danej sytuacji. Jeśli wymagany przegląd ma bardziej formalny charakter, konieczne będzie wykonanie większej liczby zadań opisanych poniżej dla różnych działań.
 
@@ -94,7 +94,7 @@ i pytań, stosując jedną lub więcej technik przeglądu (np. przegląd oparty 
 * **Przekazanie informacji i analiza**. Ponieważ zidentyfikowane podczas przeglądu anomalie niekoniecznie muszą być defektami, wszystkie anomalie należy przeanalizować i omówić, określić ich status, wskazać wymagane działania względem anomalii oraz wyznaczyć osobę za to odpowiedzialną. Zazwyczaj czynności te odbywają się podczas spotkania przeglądowego, podczas którego uczestnicy decydują również o poziomie jakości przeglądanego produktu pracy oraz dalszych wymaganych działaniach. W szczególności działania te mogą obejmować przeprowadzenie kolejnego przeglądu.
 * **Usunięcie defektów i raportowanie**. Dla każdego zidentyfikowanego defektu należy sporządzić raport o defekcie, aby umożliwić podjęcie działań naprawczych. Po osiągnięciu kryteriów wyjścia produkt pracy można uznać za zaakceptowany. Wyniki przeglądu są raportowane.
 
-### 3.2.3. Role i obowiązki w przeglądach
+### Role i obowiązki w przeglądach
 
 W przeglądach biorą udział różni interesariusze, którzy mogą pełnić różne role. Główne role i związane z nimi obowiązki są następujące:
 
@@ -107,7 +107,7 @@ W przeglądach biorą udział różni interesariusze, którzy mogą pełnić ró
 
 Norma ISO/IEC 20246 opisuje również inne, bardziej szczegółowe role.
 
-### 3.2.4. Typy przeglądów
+### Typy przeglądów
 
 Istnieje wiele typów przeglądów, od nieformalnych po formalne. Wymagany poziom sformalizowania zależy od takich czynników jak stosowany cykl wytwarzania oprogramowania,
 dojrzałość procesu wytwórczego, krytyczność i złożoność przeglądanego produktu pracy, wymogi prawne lub regulacyjne oraz potrzeba prowadzenia ścieżki audytu. Ten sam produkt pracy może być poddawany różnym typom przeglądów, np. najpierw nieformalnym, a później bardziej sformalizowanym.
@@ -124,7 +124,7 @@ technicznymi. Celem przeglądu technicznego jest osiągnięcie konsensusu i podj
 * **Inspekcja** (ang. inspection). Najbardziej formalny rodzaj przeglądu, przebiega zgodnie z pełnym procesem opisanym w sekcji 3.2.2. Głównym celem jest wykrycie jak
 największej liczby anomalii. Inne cele to ocena jakości, budowanie zaufania do produktu pracy oraz motywowanie autorów do rozwoju i stworzenie im warunków do tego. Podczas inspekcji zbiera się metryki wykorzystywane później do doskonalenia cyklu wytwarzania oprogramowania, w tym samego procesu inspekcji. W ramach inspekcji autor nie może pełnić roli lidera przeglądu ani protokolanta.
 
-### 3.2.5. Czynniki sukcesu związane z przeglądami
+### Czynniki sukcesu związane z przeglądami
 
 Czynniki decydujące o sukcesie przeglądów to między innymi:
 

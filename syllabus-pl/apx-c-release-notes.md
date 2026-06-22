@@ -1,4 +1,4 @@
-# 10. Dodatek C – nota wydania
+# Dodatek C – nota wydania
 
 ## Nota wydania dla sylabusa wersji 4.0.1
 

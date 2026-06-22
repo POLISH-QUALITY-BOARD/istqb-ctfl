@@ -1,17 +1,17 @@
-# 6. Narzędzia testowe – 20 minut
+# Narzędzia testowe – 20 minut
 
-## Słowa kluczowe
+#### Słowa kluczowe
 
 automatyzacja testów
 
-## Cele nauczania dla rozdziału 5
+#### Cele nauczania dla rozdziału 6 {.learning-objectives}
 
-6.1 Narzędzia wspomagające testowanie
-    FL-6.1.1 (K2) Wyjaśnić, w jaki sposób różnego typu narzędzia testowe wspomagają testowanie.
-6.2 Korzyści i ryzyka związane z automatyzacją testów
-    FL-6.2.1 (K1) Pamiętać korzyści i ryzyka związane z automatyzacją testów.
+1. Narzędzia wspomagające testowanie
+    1. (K2) Wyjaśnić, w jaki sposób różnego typu narzędzia testowe wspomagają testowanie.
+2. Korzyści i ryzyka związane z automatyzacją testów
+    2. (K1) Pamiętać korzyści i ryzyka związane z automatyzacją testów.
 
-## 6.1. Narzędzia wspomagające testowanie
+## Narzędzia wspomagające testowanie
 
 Narzędzia testowe wspierają i ułatwiają wiele czynności testowych. Przykłady obejmują:
 
@@ -25,7 +25,7 @@ Narzędzia testowe wspierają i ułatwiają wiele czynności testowych. Przykła
 * narzędzia wspierające skalowalność i standaryzację wdrażania (np. maszyny wirtualne, narzędzia do konteneryzacji),
 * wszelkie inne narzędzia wspomagające testowanie (np. w kontekście testowania narzędziem testowym może być arkusz kalkulacyjny).
 
-## 6.2. Korzyści i ryzyka związane z automatyzacją testów
+## Korzyści i ryzyka związane z automatyzacją testów
 
 Samo nabycie narzędzia nie gwarantuje sukcesu. Każde nowe narzędzie wymaga wysiłku, aby osiągnąć rzeczywiste i trwałe korzyści z jego użycia (np. wdrożenie narzędzia, konserwacja
 i szkolenia). Należy również uwzględnić pewne ryzyka, które wymagają analizy i łagodzenia.

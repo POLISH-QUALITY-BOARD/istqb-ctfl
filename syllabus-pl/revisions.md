@@ -1,4 +1,4 @@
-# Historia zmian
+# Historia zmian {-}
 
 Wersja Data Uwagi
 CTFL v4.0.1 15.09.2024 CTFL v4.0.1 – errata

@@ -1,4 +1,4 @@
-# Informacja o prawach autorskich
+# Informacja o prawach autorskich {-}
 
 © International Software Testing Qualifications Board (zwana dalej „ISTQB®”).
 

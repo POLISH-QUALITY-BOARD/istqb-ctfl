@@ -1,36 +1,36 @@
-# 5. Zarządzanie czynnościami testowymi – 335 minut
+# Zarządzanie czynnościami testowymi – 335 minut
 
-## Słowa kluczowe
+#### Słowa kluczowe
 
 analiza ryzyka, identyfikacja ryzyka, kontrola ryzyka, kryteria wejścia, kryteria wyjścia, kwadranty testowe, łagodzenie ryzyka, monitorowanie ryzyka, monitorowanie testów, nadzór nad testami, ocena ryzyka, piramida testów, plan testów, planowanie testów, podejście do testowania, poziom ryzyka, raport o defekcie, raport o postępie testów, ryzyko, ryzyko produktowe, ryzyko projektowe, strategia testów, sumaryczny raport z testów, testowanie oparte na ryzyku, zarządzanie defektami, zarządzanie ryzykiem
 
-## Cele nauczania dla rozdziału 5
+#### Cele nauczania dla rozdziału 5 {.learning-objectives}
 
-5.1 Planowanie testów
-    FL-5.1.1 (K2) Omówić na przykładach cel i treść planu testów.
-    FL-5.1.2 (K1) Rozpoznawać, jaki jest wkład testera w planowanie iteracji i wydań.
-    FL-5.1.3 (K2) Porównać i zestawiać ze sobą kryteria wejścia i kryteria wyjścia.
-    FL-5.1.4 (K3) Obliczyć pracochłonność testowania przy użyciu technik szacowania.
-    FL-5.1.5 (K3) Stosować priorytetyzację przypadków testowych.
-    FL-5.1.6 (K1) Pamiętać pojęcia związane z piramidą testów.
-    FL-5.1.7 (K2) Podsumować kwadranty testowe oraz ich relację do poziomów testów i typów testów.
-5.2 Zarządzanie ryzykiem
-    FL-5.2.1 (K1) Określać poziom ryzyka na podstawie prawdopodobieństwa ryzyka i wpływu ryzyka.
-    FL-5.2.2 (K2) Rozróżniać ryzyka projektowe i produktowe.
-    FL-5.2.3 (K2) Wyjaśnić potencjalny wpływ analizy ryzyka produktowego na staranność i zakres testów.
-    FL-5.2.4 (K2) Wyjaśnić, jakie środki można podjąć w odpowiedzi na przeanalizowane ryzyka produktowe.
-5.3 Monitorowanie testów, nadzór nad testami i ukończenie testów
-    FL-5.3.1 (K1) Pamiętać metryki stosowane w odniesieniu do testowania.
-    FL-5.3.2 (K2) Podsumować cele i treść raportów z testów oraz wskazać ich odbiorców.
-    FL-5.3.3 (K2) Omówić na przykładach sposób przekazywania informacji o statusie testowania.
-5.4 Zarządzanie konfiguracją
-    FL-5.4.1 (K2) Podsumować, w jaki sposób zarządzanie konfiguracją wspomaga testowanie.
-5.5 Zarządzanie defektami
-    FL-5.5.1 (K3) Sporządzić raport o defekcie.
+1. Planowanie testów
+    1. (K2) Omówić na przykładach cel i treść planu testów.
+    2. (K1) Rozpoznawać, jaki jest wkład testera w planowanie iteracji i wydań.
+    3. (K2) Porównać i zestawiać ze sobą kryteria wejścia i kryteria wyjścia.
+    4. (K3) Obliczyć pracochłonność testowania przy użyciu technik szacowania.
+    5. (K3) Stosować priorytetyzację przypadków testowych.
+    6. (K1) Pamiętać pojęcia związane z piramidą testów.
+    7. (K2) Podsumować kwadranty testowe oraz ich relację do poziomów testów i typów testów.
+2. Zarządzanie ryzykiem
+    1. (K1) Określać poziom ryzyka na podstawie prawdopodobieństwa ryzyka i wpływu ryzyka.
+    2. (K2) Rozróżniać ryzyka projektowe i produktowe.
+    3. (K2) Wyjaśnić potencjalny wpływ analizy ryzyka produktowego na staranność i zakres testów.
+    4. (K2) Wyjaśnić, jakie środki można podjąć w odpowiedzi na przeanalizowane ryzyka produktowe.
+3. Monitorowanie testów, nadzór nad testami i ukończenie testów
+    1. (K1) Pamiętać metryki stosowane w odniesieniu do testowania.
+    2. (K2) Podsumować cele i treść raportów z testów oraz wskazać ich odbiorców.
+    3. (K2) Omówić na przykładach sposób przekazywania informacji o statusie testowania.
+4. Zarządzanie konfiguracją
+    1. (K2) Podsumować, w jaki sposób zarządzanie konfiguracją wspomaga testowanie.
+5. Zarządzanie defektami
+    1. (K3) Sporządzić raport o defekcie.
 
-## 5.1. Planowanie testów
+## Planowanie testów
 
-### 5.1.1. Cel i treść planu testów
+### Cel i treść planu testów
 
 Plan testów opisuje cele, zasoby i procesy związane z projektem testowym. Plan testów:
 
@@ -54,7 +54,7 @@ Typowy plan testów dokumentuje:
 
 Więcej szczegółów na temat planu testów i jego zawartości można znaleźć w normie ISO/IEC/IEEE 29119-3.
 
-### 5.1.2. Wkład testera w planowanie iteracji i wydań
+### Wkład testera w planowanie iteracji i wydań
 
 W iteracyjnych modelach wytwarzania oprogramowania zazwyczaj występują dwa rodzaje planowania: planowanie wydania i planowanie iteracji.
 
@@ -62,7 +62,7 @@ W iteracyjnych modelach wytwarzania oprogramowania zazwyczaj występują dwa rod
 
 **Planowanie iteracji** obejmuje perspektywę pojedynczej iteracji i dotyczy backlogu tej iteracji (backlogu sprintu). Testerzy zaangażowani w planowanie iteracji uczestniczą w szczegółowej analizie ryzyka związanego z historyjkami użytkownika, określają testowalność historyjek użytkownika, dzielą historyjki użytkownika na zadania (w szczególności na zadania testowe), szacują pracochłonność wszystkich zadań testowych w iteracji oraz identyfikują i udoskonalają funkcjonalne i niefunkcjonalne aspekty przedmiotu testów.
 
-### 5.1.3. Kryteria wejścia i kryteria wyjścia
+### Kryteria wejścia i kryteria wyjścia
 
 Kryteria wejścia określają warunki wstępne podjęcia danego działania. Jeśli kryteria wejścia nie są spełnione, prawdopodobnie wykonywana czynność okaże się trudniejsza, bardziej
 czasochłonna, kosztowna i ryzykowna. Kryteria wyjścia określają, co należy osiągnąć, aby uznać czynność za zakończoną. Kryteria wejścia i wyjścia powinny być określone dla każdego poziomu testów i będą się różnić w zależności od celów testów.
@@ -77,7 +77,7 @@ zostały spełnione, może być dopuszczalne, jeśli interesariusze przeanalizow
 W zwinnym wytwarzaniu oprogramowania kryteria wyjścia są często nazywane definicją ukończenia (ang. Definition of Done, DoD) i określają obiektywne metryki dla elementu, który
 można uznać za zakończony lub przekazać do eksploatacji. Kryteria wejścia, które historyjka użytkownika musi spełnić, aby rozpocząć działania związane z jej implementacją lub testowaniem, nazywane są definicją gotowości (ang. Definition of Ready, DoR).
 
-### 5.1.4. Techniki szacowania
+### Techniki szacowania
 
 Szacowanie pracochłonności testów (ang. test effort) polega na przewidywaniu ilości pracy związanej z testowaniem, niezbędnej do osiągnięcia celów projektu testowego. Ważne jest, aby wyjaśnić interesariuszom, że szacunki opierają się na szeregu założeń i zawsze są obarczone błędem szacowania. Oszacowania dotyczące małych zadań są zazwyczaj dokładniejsze niż
 w przypadku dużych zadań. Dlatego też, szacując duże zadanie, można je najpierw rozbić na zestaw mniejszych zadań, które można oszacować indywidualnie z mniejszym błędem.
@@ -94,11 +94,11 @@ Metoda ta dobrze się sprawdza w iteracyjnych modelach wytwarzania oprogramowani
 
 **Szerokopasmowa technika delficka** (ang. Wideband Delphi). W tej iteracyjnej technice opartej na wiedzy ekspertów, eksperci dokonują szacunków opartych na doświadczeniu. Każdy ekspert szacuje pracochłonność niezależnie od innych. Wyniki są gromadzone i prezentowane, a jeśli szacunki odbiegają od uzgodnionych granic, eksperci omawiają swoje aktualne szacunki. Następnie każdy ekspert jest proszony o indywidualne dokonanie nowego oszacowania na podstawie tych informacji zwrotnych. Proces ten jest powtarzany do momentu osiągnięcia konsensusu. Odmianą tej techniki jest poker planistyczny (ang. Planning Poker), powszechnie stosowany w zwinnym wytwarzaniu oprogramowania. W odmianie tej szacunki są zazwyczaj dokonywane przy użyciu kart z liczbami reprezentującymi wielkość pracochłonności.
 
-**Szacowanie trójpunktowe**. W tej technice opartej na wiedzy ekspertów eksperci dokonują trzech oszacowań: najbardziej optymistycznego (a), najbardziej prawdopodobnego (m) i najbardziej pesymistycznego (b). Ostateczna ocena (E) jest ich ważoną średnią arytmetyczną. W najpopularniejszej wersji tej techniki ocena jest obliczana jako E = (a + 4\*m + b) / 6. Zaletą tej techniki jest to, że pozwala ekspertom obliczyć błąd pomiaru: SD = (b – a) / 6. Na przykład, jeśli szacunki (w osobogodzinach) wynoszą: 𝑎 = 6, 𝑚 = 9 i 𝑏 = 18, to ostateczny szacunek wynosi 10±2 osobogodzin (tj. od 8 do 12 osobogodzin), ponieważ E = (6 + 4\*9 + 18) / 6 = 10, a SD = (18 – 6) / 6 = 2.
+**Szacowanie trójpunktowe**. W tej technice opartej na wiedzy ekspertów eksperci dokonują trzech oszacowań: najbardziej optymistycznego (a), najbardziej prawdopodobnego (m) i najbardziej pesymistycznego (b). Ostateczna ocena (E) jest ich ważoną średnią arytmetyczną. W najpopularniejszej wersji tej techniki ocena jest obliczana jako E = (a + 4\*m + b) / 6. Zaletą tej techniki jest to, że pozwala ekspertom obliczyć błąd pomiaru: SD = (b – a) / 6. Na przykład, jeśli szacunki (w osobogodzinach) wynoszą: a = 6, m = 9 i b = 18, to ostateczny szacunek wynosi 10±2 osobogodzin (tj. od 8 do 12 osobogodzin), ponieważ E = (6 + 4\*9 + 18) / 6 = 10, a SD = (18 – 6) / 6 = 2.
 
 Więcej informacji na temat tych i wielu innych technik szacowania wysiłku testowego można znaleźć w (Kan 2003, Koomen 2006, Westfall 2009).
 
-### 5.1.5. Priorytetyzacja przypadków testowych
+### Priorytetyzacja przypadków testowych
 
 Po wyspecyfikowaniu przypadków testowych i procedur testowych oraz zorganizowaniu ich w zestawy testowe, zestawy te można uporządkować w harmonogramie wykonywania testów,
 który określa kolejność uruchamiania testów. Przy priorytetyzacji przypadków testowych można wziąć pod uwagę różne czynniki.
@@ -115,11 +115,11 @@ W idealnej sytuacji przypadki testowe są wykonywane w kolejności wyznaczonej p
 
 Kolejność wykonywania testów powinna również uwzględniać dostępność zasobów. Na przykład, wymagane narzędzia testowe, środowiska testowe lub osoby mogą być dostępne tylko w określonym przedziale czasowym.
 
-### 5.1.6. Piramida testów
+### Piramida testów
 
 Piramida testów to model pokazujący, że różne testy mogą mieć różną szczegółowość. Model ten wspiera zespół w automatyzacji testów i określaniu ich pracochłonności pokazując, że różne cele testów są wspierane przez różne poziomy automatyzacji testów. Warstwy piramidy testów reprezentują grupy testów. Im wyższa warstwa, tym mniejsza szczegółowość testu, niższa izolacja testu (tj. stopień zależności od innych elementów systemu) i dłuższy czas wykonania testu. Testy w dolnej warstwie są małe, odizolowane, szybkie i sprawdzają niewielką część funkcjonalności, więc zazwyczaj potrzeba ich wiele, aby osiągnąć rozsądny poziom pokrycia. Górna warstwa reprezentuje złożone, wysokopoziomowe, kompleksowe testy. Ich wykonywanie jest zazwyczaj wolniejsze niż wykonywanie testów z niższych warstw i zazwyczaj sprawdzają one dużą część funkcjonalności, więc zazwyczaj potrzeba niewielu takich testów, aby osiągnąć rozsądny poziom pokrycia. Liczba i nazwy warstw mogą się różnić. Na przykład, oryginalny model piramidy testów (Cohn 2009) definiuje trzy warstwy: „testy modułowe”, „testy usług” i „testy interfejsu użytkownika”. Inny popularny model definiuje testy jednostkowe (modułowe), testy integracyjne (testy integracji modułów) i testy kompleksowe (ang. end-to-end). Można również stosować inne poziomy testów (patrz sekcja 2.2.1).
 
-### 5.1.7. Kwadranty testowe
+### Kwadranty testowe
 
 Kwadranty testowe (Marick 2003, Crispin 2008) grupują poziomy testów z typami testów, czynnościami, technikami testowania i produktami pracy w kontekście zwinnego wytwarzania oprogramowania. Model ten wspiera zarządzanie testami poprzez ich wizualizację, aby zapewnić uwzględnienie wszystkich odpowiednich typów testów i poziomów testów w cyklu wytwarzania oprogramowania oraz uświadomienie testerom, że niektóre typy testów są bardziej istotne na niektórych poziomach testów niż inne. Model ten zapewnia również sposób rozróżnienia i opisania poszczególnych rodzajów testów wszystkim interesariuszom, w tym programistom, testerom i przedstawicielom jednostek biznesowych.
 
@@ -132,7 +132,7 @@ procesem ciągłej integracji.
 * **Kwadrant Q3 (zorientowany na biznes, krytykujący produkt)** obejmuje testy eksploracyjne, testy użyteczności i testy akceptacyjne użytkownika. Testy te są zorientowane na użytkownika i często wykonywane manualnie.
 * **Kwadrant Q4 (zorientowany na technologię, krytykujący produkt)** obejmuje testy dymne i testy niefunkcjonalne (z wyjątkiem testów użyteczności). Testy te są często zautomatyzowane.
 
-## 5.2. Zarządzanie ryzykiem
+## Zarządzanie ryzykiem
 
 Organizacje borykają się z wieloma czynnikami wewnętrznymi i zewnętrznymi, które powodują niepewność co do tego, czy i kiedy osiągną swoje cele (ISO 31 000). Zarządzanie ryzykiem pozwala organizacjom zwiększyć prawdopodobieństwo osiągnięcia celów, poprawić jakość swoich produktów oraz zwiększyć zaufanie interesariuszy.
 
@@ -143,7 +143,7 @@ Główne czynności w zakresie zarządzania ryzykiem to:
 
 Podejście do testów, w którym działania testowe są wybierane, priorytetyzowane i zarządzane w oparciu o analizę ryzyka i kontrolę ryzyka, nazywane jest testowaniem opartym na ryzyku.
 
-### 5.2.1. Definicja i atrybuty ryzyka
+### Definicja i atrybuty ryzyka
 
 Ryzyko to potencjalne zdarzenie, zagrożenie, niebezpieczeństwo lub sytuacja, której wystąpienie powoduje niekorzystny skutek. Ryzyko można scharakteryzować za pomocą dwóch czynników:
 
@@ -152,7 +152,7 @@ Ryzyko to potencjalne zdarzenie, zagrożenie, niebezpieczeństwo lub sytuacja, k
 
 Te dwa czynniki określają poziom ryzyka, który jest miarą ryzyka. Im wyższy poziom ryzyka, tym ważniejsze jest uwzględnienie w testach działań łagodzących to ryzyko.
 
-### 5.2.2. Ryzyka projektowe i produktowe
+### Ryzyka projektowe i produktowe
 
 W testowaniu zazwyczaj rozróżnia się dwa rodzaje ryzyka: projektowe i produktowe.
 
@@ -185,7 +185,7 @@ Wystąpienie ryzyk produktowych może skutkować różnymi negatywnymi konsekwen
 * odpowiedzialnością karną,
 * w skrajnych przypadkach – szkodami materialnymi, utratą zdrowia, a nawet życia.
 
-### 5.2.3. Analiza ryzyka produktowego
+### Analiza ryzyka produktowego
 
 Z punktu widzenia testowania celem analizy ryzyka produktowego jest uzyskanie wiedzy na temat tego ryzyka, aby koncentrować wysiłki testowe w sposób minimalizujący poziom ryzyka
 rezydualnego (pozostającego wciąż w produkcie). Analiza ryzyka produktowego powinna rozpocząć się na wczesnym etapie cyklu wytwarzania oprogramowania.
@@ -208,7 +208,7 @@ Analiza ryzyka produktowego może mieć wpływ na staranność i zakres testowan
 * ustalenia priorytetów testowania, aby jak najwcześniej wykryć krytyczne defekty,
 * określenia, czy w celu zmniejszenia ryzyka można zastosować inne niż testowanie czynności łagodzące.
 
-### 5.2.4. Kontrola ryzyka produktowego
+### Kontrola ryzyka produktowego
 
 Kontrola ryzyka produktowego obejmuje wszystkie środki podejmowane w odpowiedzi na zidentyfikowane i ocenione ryzyka produktowe. Kontrola ryzyka produktowego obejmuje
 łagodzenie ryzyka i monitorowania ryzyka. Łagodzenie ryzyka polega na wdrażaniu działań zaproponowanych podczas oceny ryzyka w celu zmniejszenia poziomu ryzyka. Celem
@@ -224,7 +224,7 @@ testowanie, akceptacja ryzyka, przeniesienie ryzyka lub plany awaryjne (Veenenda
 * zastosowanie odpowiednich typów testów uwzględniających charakterystyki jakościowe, na które ryzyko ma wpływ,
 * wykonanie testowania dynamicznego, w tym testowania regresji.
 
-## 5.3. Monitorowanie testów, nadzór nad testami i ukończenie testów
+## Monitorowanie testów, nadzór nad testami i ukończenie testów
 
 **Monitorowanie testów** polega na gromadzeniu informacji dotyczących testowania. Informacje te służą do oceny postępu testów oraz do pomiaru spełnienia kryteriów wyjścia lub wykonania zadań testowych związanych z kryteriami wyjścia (np. osiągnięcie zakładanego pokrycia ryzyk produktowych, wymagań lub kryteriów akceptacji).
 
@@ -238,7 +238,7 @@ testowanie, akceptacja ryzyka, przeniesienie ryzyka lub plany awaryjne (Veenenda
 **Ukończenie testów** polega na zebraniu danych z zakończonych czynności testowych w celu zebrania doświadczeń, testaliów i innych istotnych informacji. Czynności związane
 z ukończeniem testów mają miejsce w kluczowych momentach projektu, takich jak ukończenie poziomu testów, zakończenie iteracji w projekcie zwinnym, zakończenie (lub anulowanie) projektu testowego, wydanie oprogramowania lub zakończenie prac nad wydaniem pielęgnacyjnym (ang. maintenance release).
 
-### 5.3.1. Metryki stosowane w testowaniu
+### Metryki stosowane w testowaniu
 
 Metryki testowe są gromadzone w celu pomiaru postępów w stosunku do planowanego harmonogramu i budżetu, aktualnej jakości przedmiotu testów oraz skuteczności czynności
 testowych w odniesieniu do celów testów lub celu iteracji. W ramach monitorowania testów gromadzi się różne metryki w celu wsparcia nadzoru nad testami i ukończenia testów.
@@ -253,7 +253,7 @@ Metryki testowe mierzą w szczególności:
 * pokrycie (np. pokrycie wymagań, pokrycie kodu),
 * koszty (np. koszt testowania, koszt jakości ponoszony przez organizację).
 
-### 5.3.2. Cel, treść i odbiorcy raportów z testów
+### Cel, treść i odbiorcy raportów z testów
 Raporty z testów służą do podsumowania i przekazania informacji dotyczących testów w trakcie ich trwania i po ich zakończeniu. Raporty o postępie testów wspierają w sposób ciągły nadzór nad testami, więc muszą zawierać informacje niezbędne do umożliwienia wprowadzenia zmian w harmonogramie testów, zasobach lub planie testów, gdy takie zmiany są konieczne ze względu na odstępstwa od planu lub zmianę okoliczności. Sumaryczne raporty z testów zawierają podsumowanie konkretnej czynności testowej (np. poziomu testów, cyklu testowego, iteracji) i mogą dostarczyć informacji przydatnych do testów w kolejnych etapach.
 
 Podczas monitorowania testów i nadzoru nad testami zespół testowy generuje raporty o postępie testów, aby zapewnić interesariuszom bieżące informacje o postępie. Raporty o postępie testów są zazwyczaj generowane regularnie (np. codziennie, co tydzień itp.) i zawierają między innymi informacje na temat:
@@ -281,7 +281,7 @@ w obrębie zespołu jest zwykle częste i nieformalne. Raportowanie ukończenia 
 
 Norma ISO/IEC/IEEE 29119-3 zawiera wzory i przykłady raportu o postępie testów (zwanego w tej normie raportem o statusie testów) oraz sumarycznego raportu z testów.
 
-### 5.3.3. Przekazywanie informacji o statusie testowania
+### Przekazywanie informacji o statusie testowania
 
 Optymalny sposób komunikowania statusu testowania różni się w zależności od kwestii związanych z zarządzaniem testami, strategii testów, obowiązujących norm prawnych,
 a w przypadku samoorganizujących się zespołów (patrz sekcja 1.5.2), od samego zespołu. Dostępne opcje obejmują:
@@ -296,7 +296,7 @@ Zależnie od sytuacji można skorzystać z jednej lub kilku z powyższych opcji.
 bezpośrednia komunikacja twarzą w twarz nie zawsze jest możliwa ze względu na odległość geograficzną lub różnice czasowe. Zazwyczaj różni interesariusze są zainteresowani różnymi
 rodzajami informacji, dlatego komunikacja powinna być zawsze odpowiednio dostosowana.
 
-## 5.4. Zarządzanie konfiguracją
+## Zarządzanie konfiguracją
 
 W kontekście testowania zarządzanie konfiguracją to proces zapewniający identyfikację, kontrolę i śledzenie produktów pracy, takich jak plany testów, strategie testów, warunki testowe, przypadki testowe, skrypty testowe, wyniki testów, dzienniki testów i raporty z testów. W ramach zarządzania konfiguracji te produkty pracy nazywane są elementami konfiguracji.
 
@@ -313,7 +313,7 @@ zmian oraz powiązane z innymi elementami konfiguracji, tak aby można było zac
 
 Ciągła integracja, ciągłe dostarczanie, ciągłe wdrażanie i związane z nimi procesy testowania są zazwyczaj wdrażane w ramach zautomatyzowanego potoku dostarczania DevOps (patrz sekcja 2.1.4), w którym zazwyczaj uwzględnia się zautomatyzowane zarządzanie konfiguracją.
 
-## 5.5. Zarządzanie defektami
+## Zarządzanie defektami
 
 Ponieważ jednym z głównych celów testowania jest wykrywanie defektów, niezbędne jest ustanowienie procesu zarządzania defektami. Chociaż mówimy tutaj o „defektach”, zgłaszane
 anomalie mogą okazać się rzeczywistymi defektami lub czymś innym (np. wynikiem fałszywie pozytywnym lub żądaniem zmiany). Kwestia ta jest rozstrzygana podczas procesu rozpatrywania

@@ -1,4 +1,4 @@
-# Podziękowania
+# Podziękowania {-}
 
 Niniejszy dokument został oficjalnie opublikowany przez właściciela produktu / przewodniczącego grupy roboczej Erica Riou du Cosquera w dniu 15.09.2024 r. 
 

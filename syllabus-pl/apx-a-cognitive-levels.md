@@ -1,4 +1,4 @@
-# 8. Dodatek A – cele nauczania i poziomy wiedzy
+# Dodatek A – cele nauczania i poziomy wiedzy
 
 Poniżej przedstawiono cele nauczania obowiązujące w przypadku niniejszego sylabusa. Znajomość każdego z zagadnień poruszonych w sylabusie będzie sprawdzana na egzaminie zgodnie z przypisanym celem nauczania. Opis celu nauczania zawiera czasownik wyrażający czynność, która odpowiada właściwemu poziomowi wiedzy wymienionemu poniżej.
 

@@ -1,33 +1,33 @@
-# 2. Testowanie w cyklu wytwarzania oprogramowania – 130 minut
+# Testowanie w cyklu wytwarzania oprogramowania – 130 minut
 
-## Słowa kluczowe
+#### Słowa kluczowe
 
 poziom testów, przedmiot testów, przesunięcie w lewo, testowanie akceptacyjne, testowanie białoskrzynkowe, testowanie czarnoskrzynkowe, testowanie funkcjonalne, testowanie integracji modułów, testowanie integracji systemów, testowanie integracyjne, testowanie modułowe, testowanie niefunkcjonalne, testowanie pielęgnacyjne, testowanie potwierdzające, testowanie regresji, testowanie systemowe, typ testów
 
-## Cele nauczania dla rozdziału 2
+#### Cele nauczania dla rozdziału 2 {.learning-objectives}
 
-2.1 Testowanie w kontekście cyklu wytwarzania oprogramowania
-   FL-2.1.1 (K2) Wyjaśnić wpływ wybranego modelu cyklu wytwarzania oprogramowania na testowanie.
-   FL-2.1.2 (K1) Pamiętać dobre praktyki testowania mające zastosowanie do wszystkich modeli cyklu wytwarzania oprogramowania.
-   FL-2.1.3 (K1) Podać przykłady podejść typu „najpierw test” w kontekście wytwarzania oprogramowania.
-   FL-2.1.4 (K2) Podsumować, w jaki sposób metodyka DevOps może wpłynąć na testowanie.
-   FL-2.1.5 (K2) Wyjaśnić, na czym polega przesunięcie w lewo.
-   FL-2.1.6 (K2) Wyjaśnić, w jaki sposób retrospektywy mogą posłużyć jako mechanizmy doskonalenia procesów.
-2.2 Poziomy testów i typy testów
-   FL-2.2.1 (K2) Rozróżniać poszczególne poziomy testów.
-   FL-2.2.2 (K2) Rozróżniać poszczególne typy testów.
-   FL-2.2.3 (K2) Odróżniać testowanie potwierdzające od testowania regresji.
-2.3 Testowanie pielęgnacyjne
-   FL-2.3.1 (K2) Podsumować testowanie pielęgnacyjne i zdarzenia je wyzwalające.
+1. Testowanie w kontekście cyklu wytwarzania oprogramowania
+   1. (K2) Wyjaśnić wpływ wybranego modelu cyklu wytwarzania oprogramowania na testowanie.
+   2. (K1) Pamiętać dobre praktyki testowania mające zastosowanie do wszystkich modeli cyklu wytwarzania oprogramowania.
+   3. (K1) Podać przykłady podejść typu „najpierw test” w kontekście wytwarzania oprogramowania.
+   4. (K2) Podsumować, w jaki sposób metodyka DevOps może wpłynąć na testowanie.
+   5. (K2) Wyjaśnić, na czym polega przesunięcie w lewo.
+   6. (K2) Wyjaśnić, w jaki sposób retrospektywy mogą posłużyć jako mechanizmy doskonalenia procesów.
+2. Poziomy testów i typy testów
+   1. (K2) Rozróżniać poszczególne poziomy testów.
+   2. (K2) Rozróżniać poszczególne typy testów.
+   3. (K2) Odróżniać testowanie potwierdzające od testowania regresji.
+3. Testowanie pielęgnacyjne
+   1. (K2) Podsumować testowanie pielęgnacyjne i zdarzenia je wyzwalające.
 
-## 2.1. Testowanie w kontekście modelu cyklu wytwarzania oprogramowania
+## Testowanie w kontekście modelu cyklu wytwarzania oprogramowania
 
 Model cyklu wytwarzania oprogramowania jest abstrakcyjnym, wysokopoziomowym
 przedstawieniem procesu wytwarzania oprogramowania. Model ten określa, w jaki sposób różne fazy rozwoju i rodzaje czynności wykonywanych w ramach procesu wytwarzania oprogramowania odnoszą się do siebie zarówno pod względem logicznym, jak i chronologicznym. Przykłady obejmują: sekwencyjne modele wytwarzania oprogramowania (np. model kaskadowy, model V), iteracyjne modele wytwarzania oprogramowania (np. model spiralny, prototypowanie) oraz przyrostowe modele wytwarzania oprogramowania (np. Unified Process).
 
 Niektóre czynności w ramach procesów wytwarzania oprogramowania można również opisać za pomocą bardziej szczegółowych metod wytwarzania oprogramowania i praktyk zwinnych. Przykłady obejmują: wytwarzanie sterowane testami akceptacyjnymi (ang. acceptance test-driven development, ATDD), wytwarzanie sterowane zachowaniem (ang. behavior-driven development, BDD), projektowanie oparte na domenie (ang. domain-driven design, DDD), programowanie ekstremalne (ang. eXtreme Programming, XP), wytwarzanie oparte na cechach (ang. feature-driven development, FDD), Kanban, Lean IT, Scrum oraz wytwarzanie sterowane testami (ang. test-driven development, TDD).
 
-### 2.1.1. Wpływ cyklu wytwarzania oprogramowania na testowanie
+### Wpływ cyklu wytwarzania oprogramowania na testowanie
 
 Warunkiem powodzenia procesu testowego jest jego dostosowanie do przyjętego cyklu
 wytwarzania oprogramowania. Wybór modelu cyklu wytwarzania oprogramowania ma wpływ na:
@@ -44,7 +44,7 @@ W niektórych iteracyjnych modelach wytwarzania oprogramowania i przyrostowych m
 
 Zwinne wytwarzanie oprogramowania zakłada, że w trakcie projektu mogą wystąpić zmiany. Dlatego w projektach zwinnych preferowana jest lekka dokumentacja produktu oraz szeroko zakrojona automatyzacja testów, ułatwiająca testowanie regresji. Ponadto większość testów manualnych jest zazwyczaj wykonywana przy użyciu technik testowania opartych na doświadczeniu (patrz podrozdział 4.4), które nie wymagają wcześniejszego podjęcia szeroko zakrojonej analizy i projektowania testów.
 
-### 2.1.2. Model cyklu wytwarzania oprogramowania i dobre praktyki testowania
+### Model cyklu wytwarzania oprogramowania i dobre praktyki testowania
 
 Poniżej przedstawiono dobre praktyki testowania, niezależnie od wybranego modelu cyklu wytwarzania oprogramowania:
 * Każdej czynności związanej z wytwarzaniem oprogramowania odpowiada czynność testowa, dzięki czemu wszystkie czynności wytwórcze podlegają kontroli jakości.
@@ -52,7 +52,7 @@ Poniżej przedstawiono dobre praktyki testowania, niezależnie od wybranego mode
 * Analiza i projektowanie testów dla danego poziomu testów rozpoczynają się podczas odpowiadającej mu fazy cyklu wytwarzania oprogramowania, co zapewnia zgodność z zasadą wczesnego testowania (patrz podrozdział 1.3).
 * Testerzy są zaangażowani w przeglądanie produktów pracy natychmiast po udostępnieniu ich projektów, dzięki czemu wcześniejsze testowanie i wykrywanie defektów wspiera przesunięcie w lewo (ang. shift-left, patrz sekcja 2.1.5).
 
-### 2.1.3. Testowanie jako czynnik określający sposób wytwarzania oprogramowania
+### Testowanie jako czynnik określający sposób wytwarzania oprogramowania
 
 Wytwarzanie sterowane testami (TDD), wytwarzanie sterowane testami akceptacyjnymi (ATDD) oraz wytwarzanie sterowane zachowaniem (BDD) to podobne podejścia do wytwarzania
 oprogramowania, w których testy są czynnikiem określającym kierunek prac programistycznych. Każde z tych podejść realizuje zasadę wczesnego testowania (patrz podrozdział 1.3) i stosuje zasadę przesunięcia w lewo (patrz sekcja 2.1.5), ponieważ testy są definiowane przed napisaniem kodu. Podejścia te wspierają iteracyjny model wytwarzania oprogramowania i charakteryzują się następującymi cechami:
@@ -74,7 +74,7 @@ oprogramowania, w których testy są czynnikiem określającym kierunek prac pro
 
 W przypadku wszystkich powyższych podejść testy mogą pozostać testami automatycznymi, aby zapewnić jakość kodu w przyszłych adaptacjach bądź refaktoryzacjach.
 
-### 2.1.4. Metodyka DevOps a testowanie
+### Metodyka DevOps a testowanie
 
 DevOps to podejście organizacyjne mające na celu stworzenie synergii poprzez współpracę zespołów: wytwarzającego (w tym testowania) i operacyjnego (zajmującego się wdrażaniem
 i utrzymaniem), by osiągnąć wspólne cele. DevOps wymaga zmiany kulturowej w organizacji, aby wypełnić lukę między tymi dwoma zespołami, traktując ich funkcje jako równo istotne. DevOps promuje autonomię zespołów, szybką informację zwrotną, zintegrowane łańcuchy narzędzi oraz praktyki techniczne, takie jak ciągła integracja (ang. Continuous Integration, CI) i ciągłe dostarczanie (ang. Continuous Delivery, CD). Umożliwia to zespołom szybsze tworzenie, testowanie i wydawanie wysokiej jakości kodu poprzez dostarczania DevOps (Kim 2016).
@@ -96,7 +96,7 @@ DevOps nie jest jednak pozbawiony ryzyk i wyzwań, do których można zaliczyć:
 
 Chociaż DevOps zapewnia wysoki udział testów automatycznych, nadal konieczne są testy manualne, zwłaszcza z perspektywy użytkownika.
 
-### 2.1.5. Przesunięcie w lewo
+### Przesunięcie w lewo
 
 Zasada wczesnego testowania (patrz podrozdział 1.3) jest czasami nazywana „przesunięciem w lewo” (ang. shift left), ponieważ jest to podejście, w którym testowanie odbywa się
 na wcześniejszym etapie cyklu wytwarzania oprogramowania. Przesunięcie w lewo sugeruje, że testowanie powinno odbywać się wcześniej (np. nie czekając na implementację kodu lub integrację modułów), ale nie oznacza to, że należy zaniedbywać testowanie na późniejszych etapach cyklu wytwarzania oprogramowania.
@@ -115,7 +115,7 @@ etapach późniejszych.
 
 W przypadku przesunięcia w lewo ważne jest, aby interesariusze byli przekonani do tej koncepcji i ją akceptowali.
 
-### 2.1.6. Retrospektywy i doskonalenie procesów
+### Retrospektywy i doskonalenie procesów
 
 Retrospektywy często odbywają się pod koniec projektu lub iteracji, w momencie osiągnięcia kamienia milowego związanego z wydaniem, ale mogą być też organizowane w razie potrzeby.
 Termin i przebieg retrospektyw zależą od przyjętego modelu cyklu wytwarzania oprogramowania. Podczas retrospektyw uczestnicy (nie tylko testerzy, ale także np. programiści, architekci, właściciele produktu, analitycy biznesowi) omawiają:
@@ -135,7 +135,7 @@ Typowe korzyści płynące z retrospektyw dla testowania obejmują:
 * poprawę jakości podstawy testów (np. dzięki możliwości identyfikacji i rozwiązania niedociągnięć związanych z jakością i z zakresem wymagań),
 * polepszenie współpracy między zespołem wytwórczym a zespołem testowym (np. dzięki regularnemu przeglądowi i optymalizacji zasad współpracy).
 
-## 2.2. Poziomy testów i typy testów
+## Poziomy testów i typy testów
 
 Poziomy testów to grupy czynności testowych, które są organizowane i zarządzane wspólnie. Każdy poziom testów jest instancją procesu testowego, wykonywaną w odniesieniu do oprogramowania na danym etapie wytwarzania, od poszczególnych modułów po kompletne systemy lub systemy systemów.
 
@@ -144,7 +144,7 @@ oprogramowania może to nie mieć zastosowania. Czynności związane z wytwarzan
 
 Typy testów to grupy czynności testowych związanych z określonymi charakterystykami jakościowymi, a większość tych czynności można wykonać na każdym poziomie testów.
 
-### 2.2.1. Poziomy testów
+### Poziomy testów
 
 W niniejszym sylabusie opisano pięć następujących poziomów testów:
 
@@ -163,7 +163,7 @@ Poziomy testów rozróżnia się na podstawie poniższej, niewyczerpującej list
 * defekty i awarie,
 * podejście i odpowiedzialności.
 
-### 2.2.2. Typy testów
+### Typy testów
 
 Istnieje wiele typów testów. W niniejszym sylabusie omówiono cztery z nich. 
 
@@ -193,7 +193,7 @@ testów. Głównym celem testowania czarnoskrzynkowego jest sprawdzenie zachowan
 Wszystkie cztery wyżej wymienione typy testów mogą być stosowane na wszystkich poziomach testów, chociaż działania na każdym poziomie będą inaczej ukierunkowane. Do wyprowadzenia
 warunków testowych i przypadków testowych dla wszystkich wymienionych typów testów można stosować różne techniki testowania.
 
-### 2.2.3. Testowanie potwierdzające i testowanie regresji
+### Testowanie potwierdzające i testowanie regresji
 
 W modułach lub systemach często wprowadza się zmiany w celu ich ulepszenia poprzez dodanie nowej funkcjonalności lub naprawienie poprzez usunięcie defektu. Testowanie powinno wówczas obejmować testowanie potwierdzające i testowanie regresji.
 
@@ -214,7 +214,7 @@ jest naturalnym kandydatem do automatyzacji. Automatyzację testów należy rozp
 
 Testowanie potwierdzające oraz testowanie regresji dla przedmiotu testów jest wykonywane na wszystkich poziomach testów, na których usuwano defekty lub wprowadzano zmiany.
 
-## 2.3. Testowanie pielęgnacyjne
+## Testowanie pielęgnacyjne
 
 Istnieją różne kategorie pielęgnacji. Może ona mieć charakter korygujący (działania naprawcze), adaptacyjny (dostosowanie do zmian w środowisku) lub doskonalący (np. poprawiający wydajność lub łatwość utrzymania, patrz norma ISO/IEC 14764). Pielęgnacja może zatem obejmować zarówno planowane wydania/wdrożenia, jak i nieplanowane doraźne poprawki (ang.
 hot fix). Przed dokonaniem zmiany można przeprowadzić analizę wpływu, aby ustalić, czy zmiana powinna zostać wprowadzona, w oparciu o potencjalne konsekwencje w innych obszarach
