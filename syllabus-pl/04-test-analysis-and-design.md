@@ -7,7 +7,7 @@ analiza wartości brzegowych, białoskrzynkowa technika testowania, czarnoskrzyn
 #### Cele nauczania dla rozdziału 4 {.learning-objectives}
 
 1. Ogólna charakterystyka technik testowania
-    FL-4.1.1 (K2) Rozróżniać czarnoskrzynkowe techniki testowania, białoskrzynkowe techniki testowania oraz techniki testowania oparte na doświadczeniu.
+    1. (K2) Rozróżniać czarnoskrzynkowe techniki testowania, białoskrzynkowe techniki testowania oraz techniki testowania oparte na doświadczeniu.
 2. Czarnoskrzynkowe techniki testowania
     1. (K3) Zastosować technikę podziału na klasy równoważności, aby zaprojektować przypadki testowe.
     2. (K3) Zastosować technikę analizy wartości brzegowych, aby zaprojektować przypadki testowe.

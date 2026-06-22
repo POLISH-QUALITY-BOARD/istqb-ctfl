@@ -9,7 +9,7 @@ automatyzacja testów
 1. Narzędzia wspomagające testowanie
     1. (K2) Wyjaśnić, w jaki sposób różnego typu narzędzia testowe wspomagają testowanie.
 2. Korzyści i ryzyka związane z automatyzacją testów
-    2. (K1) Pamiętać korzyści i ryzyka związane z automatyzacją testów.
+    1. (K1) Pamiętać korzyści i ryzyka związane z automatyzacją testów.
 
 ## Narzędzia wspomagające testowanie
 
