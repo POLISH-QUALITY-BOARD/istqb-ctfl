@@ -8,15 +8,15 @@ correct: d
 Które z poniższych stwierdzeń jest przykładem tego, dlaczego testowanie jest konieczne?
 
 ## answers
-a) Testowanie dynamiczne zwiększa jakość, wywołując awarie przedmiotów testów w sposób, który nigdy nie byłby możliwy do osiągnięcia przez użytkowników.
-b) Testowanie statyczne jest wykorzystywane przez programistów do identyfikowania defektów w kodzie wcześniej niż jest to możliwe do osiągnięcia w przypadku testowania dynamicznego.
-c) Analiza statyczna dostarcza klientom dowodów, że elementy systemu, które nie generują żadnych wyników, nadają się do wydania.
+a) Testowanie dynamiczne zwiększa jakość, wywołując awarie przedmiotów testów w sposób, który nigdy nie byłby możliwy do osiągnięcia przez użytkowników.  
+b) Testowanie statyczne jest wykorzystywane przez programistów do identyfikowania defektów w kodzie wcześniej niż jest to możliwe do osiągnięcia w przypadku testowania dynamicznego.  
+c) Analiza statyczna dostarcza klientom dowodów, że elementy systemu, które nie generują żadnych wyników, nadają się do wydania.  
 d) Przeglądy zwiększają jakość specyfikacji wymagań i prowadzą do zmniejszenia liczby zmian wymaganych w pochodnych produktach pracy.
 
 ## justification
-a) Odpowiedź niepoprawna. Można użyć testowania dynamicznego tak, żeby przedmiot testów uległ awarii w sposób, który nigdy nie byłby możliwy do osiągnięcia dla użytkowników, na przykład przez wstrzyknięcie usterki. Ale jeśli awaria nigdy nie może się zdarzyć u rzeczywistych użytkowników, to jej wykrycie nie jest zbyt przydatne, bo testy mają na celu poprawę produktu pracy dla użytkowników. Poświęcanie czasu na testowanie awarii, które nie mogą wystąpić u rzeczywistych użytkowników, nie jest efektywnym wykorzystaniem czasu testera.
-b) Odpowiedź niepoprawna. Testowanie statyczne w formie analizy statycznej jest wykorzystywane przez programistów do identyfikacji defektów w kodzie wcześniej niż można to osiągnąć za pomocą testowania dynamicznego. Należy jednak pamiętać, że testowanie statyczne (i analiza statyczna) służy do wykrywania defektów, a nie awarii, które są wykrywane za pomocą testowania dynamicznego. Dlatego też użycie terminu „awarie" sprawia, że jest to nieprawidłowa odpowiedź.
-c) Odpowiedź niepoprawna. Analiza statyczna bezpośrednio wykrywa defekty w kodzie i zazwyczaj jest to informacja dla programisty, a nie dla klienta.
+a) Odpowiedź niepoprawna. Można użyć testowania dynamicznego tak, żeby przedmiot testów uległ awarii w sposób, który nigdy nie byłby możliwy do osiągnięcia dla użytkowników, na przykład przez wstrzyknięcie usterki. Ale jeśli awaria nigdy nie może się zdarzyć u rzeczywistych użytkowników, to jej wykrycie nie jest zbyt przydatne, bo testy mają na celu poprawę produktu pracy dla użytkowników. Poświęcanie czasu na testowanie awarii, które nie mogą wystąpić u rzeczywistych użytkowników, nie jest efektywnym wykorzystaniem czasu testera.  
+b) Odpowiedź niepoprawna. Testowanie statyczne w formie analizy statycznej jest wykorzystywane przez programistów do identyfikacji defektów w kodzie wcześniej niż można to osiągnąć za pomocą testowania dynamicznego. Należy jednak pamiętać, że testowanie statyczne (i analiza statyczna) służy do wykrywania defektów, a nie awarii, które są wykrywane za pomocą testowania dynamicznego. Dlatego też użycie terminu „awarie" sprawia, że jest to nieprawidłowa odpowiedź.  
+c) Odpowiedź niepoprawna. Analiza statyczna bezpośrednio wykrywa defekty w kodzie i zazwyczaj jest to informacja dla programisty, a nie dla klienta.  
 d) Odpowiedź poprawna. Przeglądy są formą testowania statycznego, które można stosować od samego początku cyklu wytwarzania oprogramowania i służą do wykrywania defektów, które można usunąć, zanim kolejne czynności związane z rozwojem oprogramowania spowodują stratę czasu poprzez implementację wadliwych wymagań. Jeśli defekty nie zostaną wykryte i usunięte na wczesnym etapie, to gdy zostaną wykryte w pochodnych produktach pracy, takich jak projekt i kod, wymagania będą musiały zostać zmienione.
 
 ---

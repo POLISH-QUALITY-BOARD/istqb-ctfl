@@ -8,15 +8,15 @@ correct: b
 Który z poniższych jest typowym celem testów?
 
 ## answers
-a) Sprawdzenie, czy udokumentowane wymagania są spełnione.
-b) Powodowanie awarii i identyfikacja defektów.
-c) Wywoływanie błędów i identyfikacja podstawowych przyczyn.
+a) Sprawdzenie, czy udokumentowane wymagania są spełnione.  
+b) Powodowanie awarii i identyfikacja defektów.  
+c) Wywoływanie błędów i identyfikacja podstawowych przyczyn.  
 d) Weryfikacja, czy przedmiot testów spełnia oczekiwania użytkowników.
 
 ## justification
-a) Odpowiedź niepoprawna. Sprawdzanie zgodności z udokumentowanymi wymaganiami jest niepoprawne, ponieważ walidacja dotyczy spełnienia wymagań i oczekiwań użytkowników, podczas gdy weryfikacja dotyczy spełnienia wyspecyfikowanych wymagań, więc byłoby to poprawne, gdybyśmy zastąpili „walidację" terminem „weryfikacja".
-b) Odpowiedź poprawna. Wywoływanie awarii i identyfikowanie defektów jest prawdopodobnie najczęstszym celem testowania dynamicznego.
-c) Odpowiedź niepoprawna. Wywoływanie błędów i identyfikowanie podstawowych przyczyn jest niepoprawne, ponieważ testerzy nie wywołują błędów, lecz awarie. Błędy są zazwyczaj popełniane przez programistów (i nie można ich tak naprawdę wywołać) i powodują defekty, które testerzy próbują zidentyfikować bezpośrednio poprzez testowanie statyczne lub pośrednio poprzez awarie w testowaniu dynamicznym. Identyfikowanie podstawowych przyczyn jest przydatne, ale stanowi część debugowania, które jest odrębną czynnością od testowania.
+a) Odpowiedź niepoprawna. Sprawdzanie zgodności z udokumentowanymi wymaganiami jest niepoprawne, ponieważ walidacja dotyczy spełnienia wymagań i oczekiwań użytkowników, podczas gdy weryfikacja dotyczy spełnienia wyspecyfikowanych wymagań, więc byłoby to poprawne, gdybyśmy zastąpili „walidację" terminem „weryfikacja".  
+b) Odpowiedź poprawna. Wywoływanie awarii i identyfikowanie defektów jest prawdopodobnie najczęstszym celem testowania dynamicznego.  
+c) Odpowiedź niepoprawna. Wywoływanie błędów i identyfikowanie podstawowych przyczyn jest niepoprawne, ponieważ testerzy nie wywołują błędów, lecz awarie. Błędy są zazwyczaj popełniane przez programistów (i nie można ich tak naprawdę wywołać) i powodują defekty, które testerzy próbują zidentyfikować bezpośrednio poprzez testowanie statyczne lub pośrednio poprzez awarie w testowaniu dynamicznym. Identyfikowanie podstawowych przyczyn jest przydatne, ale stanowi część debugowania, które jest odrębną czynnością od testowania.  
 d) Odpowiedź niepoprawna. Sprawdzanie, czy przedmiot testów spełnia oczekiwania użytkownika, jest niepoprawne, ponieważ weryfikacja dotyczy sprawdzania wyspecyfikowanych (udokumentowanych) wymagań, podczas gdy walidacja dotyczy spełnienia wymagań i oczekiwań użytkownika, więc byłoby to poprawne, gdybyśmy zastąpili „weryfikację" terminem „walidacja".
 
 ---

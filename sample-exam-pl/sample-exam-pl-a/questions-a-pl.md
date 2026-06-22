@@ -8,16 +8,16 @@ correct: c
 Które z poniższych stwierdzeń opisuje poprawny cel testów?
 
 ## answers
-a) Dowieść, że w testowanym systemie nie ma żadnych nieusuniętych defektów.
-b) Dowieść, że po wdrożeniu systemu do produkcji nie wystąpią żadne awarie.
-c) Zmniejszyć poziom ryzyka przedmiotu testów i zbudować zaufanie do poziomu jakości.
-d) Zweryfikować, że nie ma nieprzetestowanych kombinacji danych wejściowych.
+a) Dowieść, że w testowanym systemie nie ma żadnych nieusuniętych defektów.  
+b) Dowieść, że po wdrożeniu systemu do produkcji nie wystąpią żadne awarie.  
+c) Zmniejszyć poziom ryzyka przedmiotu testów i zbudować zaufanie do poziomu jakości.  
+d) Zweryfikować, że nie ma nieprzetestowanych kombinacji danych wejściowych.  
 
 ## justification
-a) Odpowiedź niepoprawna. Nie można udowodnić, że w testowanym systemie nie ma już żadnych defektów (patrz zasada testowania nr 1).
-b) Odpowiedź niepoprawna. Patrz zasada testowania nr 7.
-c) Odpowiedź poprawna. Testowanie pozwala wykryć defekty i awarie, co zmniejsza poziom ryzyka, a jednocześnie zwiększa zaufanie do poziomu jakości przedmiotu testów.
-d) Odpowiedź niepoprawna. Niemożliwe jest przetestowanie wszystkich kombinacji danych wejściowych (patrz zasada testowania nr 2).
+a) Odpowiedź niepoprawna. Nie można udowodnić, że w testowanym systemie nie ma już żadnych defektów (patrz zasada testowania nr 1).  
+b) Odpowiedź niepoprawna. Patrz zasada testowania nr 7.  
+c) Odpowiedź poprawna. Testowanie pozwala wykryć defekty i awarie, co zmniejsza poziom ryzyka, a jednocześnie zwiększa zaufanie do poziomu jakości przedmiotu testów.  
+d) Odpowiedź niepoprawna. Niemożliwe jest przetestowanie wszystkich kombinacji danych wejściowych (patrz zasada testowania nr 2).  
 
 ---
 

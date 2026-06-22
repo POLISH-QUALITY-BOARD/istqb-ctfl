@@ -8,15 +8,15 @@ correct: d
 Które z poniższych jest typowym celem testu?
 
 ## answers
-a) Wykrywanie i usuwanie defektów w przedmiocie testów.
-b) Utrzymanie skutecznej komunikacji z programistami.
-c) Walidacja, czy spełnione zostały wymagania prawne.
+a) Wykrywanie i usuwanie defektów w przedmiocie testów.  
+b) Utrzymanie skutecznej komunikacji z programistami.  
+c) Walidacja, czy spełnione zostały wymagania prawne.  
 d) Budowanie zaufania do jakości przedmiotu testów.
 
 ## justification
-a) Odpowiedź niepoprawna. Wykrywanie i usuwanie defektów w przedmiocie testów nie jest typowym celem testów, ponieważ -- chociaż identyfikacja defektów jest celem testów -- usuwanie defektów nie jest czynnością testową.
-b) Odpowiedź niepoprawna. Utrzymywanie skutecznej komunikacji z programistami nie jest typowym celem testów, ponieważ -- chociaż jest to przydatne w osiąganiu innych celów testów, takich jak dostarczanie interesariuszom informacji umożliwiających im podejmowanie świadomych decyzji -- nie jest to główny powód przeprowadzania testów.
-c) Odpowiedź niepoprawna. Walidacja zgodności z wymaganiami prawnymi nie jest typowym celem testów, ponieważ walidacja polega na sprawdzeniu, czy system spełnia potrzeby użytkowników i innych interesariuszy w swoim środowisku operacyjnym. Sprawdzanie zgodności z wymaganiami prawnymi jest formą weryfikacji, a nie walidacji.
+a) Odpowiedź niepoprawna. Wykrywanie i usuwanie defektów w przedmiocie testów nie jest typowym celem testów, ponieważ -- chociaż identyfikacja defektów jest celem testów -- usuwanie defektów nie jest czynnością testową.  
+b) Odpowiedź niepoprawna. Utrzymywanie skutecznej komunikacji z programistami nie jest typowym celem testów, ponieważ -- chociaż jest to przydatne w osiąganiu innych celów testów, takich jak dostarczanie interesariuszom informacji umożliwiających im podejmowanie świadomych decyzji -- nie jest to główny powód przeprowadzania testów.  
+c) Odpowiedź niepoprawna. Walidacja zgodności z wymaganiami prawnymi nie jest typowym celem testów, ponieważ walidacja polega na sprawdzeniu, czy system spełnia potrzeby użytkowników i innych interesariuszy w swoim środowisku operacyjnym. Sprawdzanie zgodności z wymaganiami prawnymi jest formą weryfikacji, a nie walidacji.  
 d) Odpowiedź poprawna. Budowanie zaufania do jakości przedmiotu testów osiąga się poprzez wykonywanie testów, które zakończyły się zaliczeniem.
 
 ---
