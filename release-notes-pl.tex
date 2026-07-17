@@ -1,0 +1,23 @@
+\documentclass{istqb}
+\usepackage{markdown}
+\markdownSetup{
+  import = {
+    istqb/syllabus = metadata
+  }
+}
+
+% Metadata
+\markdownInput[snippet=metadata]{release-notes-pl/metadata.yml}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright
+\markdownInput{release-notes-pl/copyright.md}
+
+% Document Content
+\markdownInput{release-notes-pl/release-notes.md}
+
+\end{document}
