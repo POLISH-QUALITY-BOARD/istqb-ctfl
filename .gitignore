@@ -6,6 +6,7 @@
 # Build files
 _markdown*/
 questions.yml
+.claude/skills/istqb-sample-exam-update/scripts/_template_cache.py
 *.md.tex
 *.aux
 *.bbl
