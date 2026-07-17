@@ -566,7 +566,7 @@ Przygotowałeś następujący zestaw przypadków testowych:
 
 |         | **Wynik końcowy** | **Ocena końcowa** |
 | :--- | :---: | :---: |
-| **TC1** | 91 | bardzo dobry |
+| **TC1** | 91 | celujący |
 | **TC2** | 50 | niedostateczny |
 | **TC3** | 81 | bardzo dobry |
 | **TC4** | 60 | dostateczny |
@@ -729,3 +729,1126 @@ a) Odpowiedź poprawna. Podstawową koncepcją zgadywania błędów jest to, że
 b) Odpowiedź niepoprawna. Chociaż tester, który wcześniej był programistą, może wykorzystać swoje doświadczenie podczas zgadywania błędów, to jednak ta technika testowania nie opiera się na wcześniejszego doświadczenia w programowaniu.
 c) Odpowiedź niepoprawna. Zgadywanie błędów nie jest techniką ograniczoną do testowania użyteczności i odgadywania, w jaki sposób użytkownicy mogą nieprawidłowo korzystać z przedmiotu testów.
 d) Odpowiedź niepoprawna. Powielanie zadania programistycznego to nie zgadywanie błędów. Ponadto, ma ono kilka wad, które sprawiają, że jest ono niepraktyczne, np. konieczność posiadania przez testera umiejętności równoważnych umiejętnościom programisty oraz czas potrzebny do wykonania zadania programistycznego. To nie jest zgadywanie błędów.
+
+---
+
+# metadata
+lo: FL-4.4.2
+k-level: K2
+points: 1
+correct: c
+
+## question
+W ramach realizowanego projektu nastąpiło opóźnienie w wydaniu zupełnie nowej aplikacji, a testy rozpoczęły się z opóźnieniem. Dysponujesz jednak bardzo szczegółową wiedzą dziedzinową i dobrymi umiejętnościami analitycznymi. Pełna lista wymagań nie została jeszcze udostępniona zespołowi, ale kierownictwo prosi o przedstawienie niektórych wyników testów.
+Która technika testowania najlepiej pasuje w tej sytuacji?
+
+## answers
+a) Testowanie oparte na liście kontrolnej.
+b) Zgadywanie błędów.
+c) Testowanie eksploracyjne.
+d) Testowanie gałęzi.
+
+## justification
+a) Odpowiedź niepoprawna. Jest to nowy produkt. Prawdopodobnie nie masz jeszcze listy kontrolnej, a warunki testowe mogą być nieznane z powodu brakujących wymagań.
+b) Odpowiedź niepoprawna. Jest to nowy produkt. Prawdopodobnie nie masz wystarczających informacji, aby poprawnie zgadywać błędy.
+c) Odpowiedź poprawna. Testowanie eksploracyjne jest najbardziej przydatne, gdy specyfikacja jest szczątkowa lub jej brak, bądź gdy termin wykonania testów jest pilny.
+d) Odpowiedź niepoprawna. Testowanie gałęzi jest czasochłonne, a kierownictwo prosi o wyniki testów już teraz. Ponadto testowanie gałęzi nie wymaga wiedzy dziedzinowej.
+
+---
+
+# metadata
+lo: FL-4.5.2
+k-level: K2
+points: 1
+correct: b
+
+## question
+Które z poniższych stwierdzeń **NAJLEPIEJ** opisuje sposób dokumentowania kryteriów akceptacji?
+
+## answers
+a) Przeprowadzanie retrospektyw w celu określenia rzeczywistych potrzeb interesariuszy w odniesieniu do danej historyjki użytkownika.
+b) Użycie formatu „mając/kiedy/wtedy” do opisania przykładowego warunku testowego związanego z daną historyjką użytkownika.
+c) Wykorzystanie komunikacji werbalnej w celu zmniejszenia ryzyka niezrozumienia kryteriów akceptacji przez inne osoby.
+d) Dokumentowanie ryzyk związanych z daną historyjką użytkownika w planie testów w celu ułatwienia testowania danej historyjki użytkownika w oparciu o ryzyko.
+
+## justification
+a) Odpowiedź niepoprawna. Retrospektywy służą do rejestrowania wniosków i doskonalenia procesu rozwoju i testowania, a nie do dokumentowania kryteriów akceptacji.
+b) Odpowiedź poprawna. To standardowy sposób dokumentowania kryteriów akceptacji.
+c) Odpowiedź niepoprawna. Komunikacja werbalna nie pozwala na fizyczne udokumentowanie kryteriów akceptacji jako części historyjki użytkownika (aspekt „karty” w modelu 3C).
+d) Odpowiedź niepoprawna. Kryteria akceptacji odnoszą się do historyjki użytkownika, a nie do planu testów. Ponadto kryteria akceptacji to warunki, które muszą zostać spełnione, aby uznać historyjkę użytkownika za zakończoną. Ryzyka nie stanowią takich warunków.
+
+---
+
+# metadata
+lo: FL-4.5.3
+k-level: K3
+points: 1
+correct: a
+
+## question
+Rozważ następującą historyjkę użytkownika:
+
+*JAKO redaktor*
+*CHCĘ przejrzeć treść przed jej opublikowaniem,*
+*ABY upewnić się, że gramatyka jest poprawna.*
+
+oraz kryteria akceptacji:
+
+- Użytkownik może zalogować się do systemu zarządzania treścią z rolą „redaktor”
+- Redaktor może przeglądać istniejące strony z treściami
+- Redaktor może edytować zawartość strony
+- Redaktor może dodawać komentarze w postaci znaczników
+- Redaktor może zapisywać zmiany
+- Redaktor może ponownie przypisać artykuł do roli „właściciel treści”, aby wprowadzać aktualizacje
+
+Które z poniższych jest **najlepszym** przykładem testu ATDD dla tej historyjki użytkownika?
+
+## answers
+a) Sprawdź, czy redaktor może zapisać dokument po edycji zawartości strony.
+b) Sprawdź, czy właściciel treści może się zalogować i wprowadzać aktualizacje treści.
+c) Sprawdź, czy redaktor może zaplanować publikację edytowanej treści.
+d) Sprawdź, czy redaktor może przypisać artykuł do innego redaktora w celu aktualizacji.
+
+## justification
+a) Odpowiedź poprawna. Test ten obejmuje dwa kryteria akceptacji: jedno dotyczące edycji dokumentu, a drugie dotyczące zapisywania zmian.
+b) Odpowiedź niepoprawna. Kryteria akceptacji dotyczą działań redaktora, a nie właściciela treści.
+c) Odpowiedź niepoprawna. Planowanie publikacji redagowanej treści może być przydatną funkcją, ale nie jest objęte kryteriami akceptacji.
+d) Odpowiedź niepoprawna. Kryteria akceptacji dotyczą przeniesienia odpowiedzialności z redaktora na właściciela treści, a nie na innego redaktora.
+
+---
+
+# metadata
+lo: FL-5.1.2
+k-level: K1
+points: 1
+correct: c
+
+## question
+W jaki sposób testerzy wspierają planowanie iteracji i wydania?
+
+## answers
+a) Określając priorytet historyjek użytkownika, które mają zostać opracowane przez zespół wytwórczy.
+b) Koncentrując się wyłącznie na aspektach funkcjonalnych testowanego systemu.
+c) Uczestnicząc w szczegółowej identyfikacji i ocenie ryzyka związanego z historyjkami użytkownika.
+d) Gwarantując wydanie wysokiej jakości oprogramowania poprzez wczesne projektowanie testów podczas planowania wydania.
+
+## justification
+a) Odpowiedź niepoprawna. Priorytety dla historyjek użytkownika są ustalane przez przedstawiciela jednostki biznesowej wraz z zespołem wytwórczym.
+b) Odpowiedź niepoprawna. Testerzy koncentrują się zarówno na funkcjonalnych, jak i niefunkcjonalnych aspektach testowanego systemu.
+c) Odpowiedź poprawna. Zgodnie z sylabusem jest to jeden ze sposobów, w jaki testerzy zwiększają wartość planowania iteracji i wydania.
+d) Odpowiedź niepoprawna. Wczesne projektowanie testów nie jest częścią planowania wydania. Wczesne projektowanie testów nie gwarantuje automatycznie wydania wysokiej jakości oprogramowania.
+
+---
+
+# metadata
+lo: FL-5.1.3
+k-level: K2
+points: 1
+correct: c, e
+
+## question
+Które **dwie** z poniższych opcji są kryteriami wyjścia z fazy testowania systemowego?
+
+## answers
+a) Gotowość środowiska testowego.
+b) Możliwość zalogowania się do przedmiotu testów przez testera.
+c) Osiągnięcie szacowanej gęstości defektów.
+d) Wymagania są przetłumaczone na format „mając/kiedy/wtedy”.
+e) Testy regresji są zautomatyzowane.
+
+## justification
+a) Odpowiedź niepoprawna. Gotowość środowiska testowego jest kryterium dostępności zasobów, dlatego należy do kryteriów wejścia.
+b) Odpowiedź niepoprawna. Jest to kryterium dostępności zasobów, dlatego należy do kryteriów wejścia.
+c) Odpowiedź poprawna. Szacowana gęstość defektów jest miarą staranności, dlatego należy do kryteriów wyjścia.
+d) Odpowiedź niepoprawna. Wymagania przetłumaczone na określony format dają wymagania możliwe do przetestowania, dlatego należą do kryteriów wejścia.
+e) Odpowiedź poprawna. Automatyzacja testów regresji jest kryterium ukończenia, dlatego należy do kryteriów wyjścia.
+
+---
+
+# metadata
+lo: FL-5.1.4
+k-level: K3
+points: 1
+correct: d
+
+## question
+Twój zespół stosuje technikę szacowania trójpunktowego, aby oszacować wysiłek testowy związany z testowaniem nowej funkcji wysokiego ryzyka. Dokonano następujących szacunków:
+
+- Najbardziej optymistyczne oszacowanie: 2 osobogodziny
+- Najbardziej prawdopodobne oszacowanie: 11 osobogodzin
+- Najbardziej pesymistyczne oszacowanie: 14 osobogodzin
+
+Ile ostatecznie wynosi szacowany wysiłek testowy?
+
+## answers
+a) 9 osobogodzin.
+b) 14 osobogodzin.
+c) 11 osobogodzin.
+d) 10 osobogodzin.
+
+## justification
+W technice szacowania trójpunktowego: $E = (opt + 4 \cdot npr + pes)/6$, gdzie *opt*, *npr* i *pes* to odpowiednio szacowanie optymistyczne, najbardziej prawdopodobne i pesymistyczne.
+Podstawiając do wzoru otrzymujemy: $E = (2 + 4 \cdot 11 + 14)/6 = 10$.
+Zatem:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź poprawna.
+
+---
+
+# metadata
+lo: FL-5.1.5
+k-level: K3
+points: 1
+correct: a
+
+## question
+Testujesz aplikację mobilną, która pozwala użytkownikom znaleźć pobliską restaurację na podstawie rodzaju potraw, które użytkownicy chcą zjeść. Rozważ poniższą listę przypadków testowych, priorytetów (1 = wysoki priorytet, 2 = średni priorytet, 3 = niski priorytet) i zależności.
+
+| **Numer przypadku testowego** | **Warunek testowy objęty testem** | **Priorytet** | **Zależność logiczna** |
+| :--- | :--- | :---: | :---: |
+| TC 001 | Wybierz rodzaj żywności | 3 | brak |
+| TC 002 | Wybierz restaurację | 2 | TC 001 |
+| TC 003 | Uzyskaj wskazówki dojazdu | 1 | TC 002 |
+| TC 004 | Zadzwoń do restauracji | 2 | TC 002 |
+| TC 005 | Zarezerwuj stolik | 3 | TC 002 |
+
+Który z poniższych przypadków testowych powinien zostać wykonany jako **trzeci** w kolejności?
+
+## answers
+a) TC 003.
+b) TC 005.
+c) TC 002.
+d) TC 001.
+
+## justification
+Test TC 001 musi być wykonany jako pierwszy, a następnie TC 002, aby spełnić zależności. Następnie TC 003, aby spełnić priorytet, a następnie TC 004, po którym następuje TC 005.
+Zatem:
+a) Odpowiedź poprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-5.1.7
+k-level: K2
+points: 1
+correct: a
+
+## question
+Rozważ następujące kategorie testów (1--4) i kwadranty testowe (A--D).
+
+1. Testowanie użyteczności
+2. Testowanie modułowe
+3. Testowanie funkcjonalne
+4. Testowanie niezawodności
+
+A. Kwadrant Q1: zorientowany na technologię, wspierający zespół programistów
+B. Kwadrant Q2: zorientowany na biznes, wspierający zespół programistów
+C. Kwadrant Q3: zorientowany na biznes, krytykujący produkt
+D. Kwadrant Q4: zorientowany na technologię, krytykujący produkt
+
+W jaki sposób poniższe kategorie testów odnoszą się do kwadrantów testowych?
+
+## answers
+a) 1C, 2A, 3B, 4D.
+b) 1D, 2A, 3C, 4B.
+c) 1C, 2B, 3D, 4A.
+d) 1D, 2B, 3C, 4A.
+
+## justification
+Uwzględniając, iż:
+
+- testy użyteczności są w Q3 (1 -- C),
+- testy modułów są w Q1 (2 -- A),
+- testy funkcjonalne są w Q2 (3 -- B),
+- testy niezawodności są w Q4 (4 -- D),
+
+mamy:
+a) Odpowiedź poprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-5.2.4
+k-level: K2
+points: 1
+correct: c
+
+## question
+Podczas analizy ryzyka zidentyfikowano i oceniono następujące ryzyko:
+
+- Ryzyko: czas reakcji jest zbyt długi, aby wygenerować raport
+- Prawdopodobieństwo wystąpienia ryzyka: średnie
+- Wpływ ryzyka: wysoki
+- Reakcja na ryzyko:
+    - Niezależny zespół testowy przeprowadza testy wydajności podczas testowania systemowego
+    - Wybrana grupa użytkowników końcowych przeprowadza testy akceptacyjne alfa i beta przed wydaniem produktu
+
+Jakie działania należy podjąć w odpowiedzi na to przeanalizowane ryzyko?
+
+## answers
+a) Akceptacja ryzyka.
+b) Plan awaryjny.
+c) Łagodzenie ryzyka.
+d) Przeniesienie ryzyka.
+
+## justification
+a) Odpowiedź niepoprawna. Nie akceptujemy ryzyka; proponujemy konkretne działania.
+b) Odpowiedź niepoprawna. Nie zaproponowano żadnych planów awaryjnych.
+c) Odpowiedź poprawna. Proponowane działania dotyczą testowania, które jest formą łagodzenia ryzyka.
+d) Odpowiedź niepoprawna. Ryzyko nie jest przenoszone, ale łagodzone.
+
+---
+
+# metadata
+lo: FL-5.3.3
+k-level: K2
+points: 1
+correct: d
+
+## question
+Który produkt pracy może zostać wykorzystany przez zespół zwinny w celu pokazania ilości pracy, jaka została wykonana oraz całkowitej ilości pracy pozostałej do wykonania w danej iteracji?
+
+## answers
+a) Kryteria akceptacji.
+b) Raport o defekcie.
+c) Sumaryczny raport z testów.
+d) Wykres spalania.
+
+## justification
+a) Odpowiedź niepoprawna. Kryteria akceptacji to warunki stosowane do podjęcia decyzji, czy historyjka użytkownika jest gotowa. Nie mogą one pokazywać postępu prac.
+b) Odpowiedź niepoprawna. Raporty o defektach informują o defektach. Nie pokazują one postępu prac.
+c) Odpowiedź niepoprawna. Sumaryczny raport z testów można utworzyć po zakończeniu iteracji, więc nie pokazuje on postępu w sposób ciągły w ramach iteracji.
+d) Odpowiedź poprawna. Wykresy spalania są graficznym przedstawieniem pozostałej pracy w stosunku do pozostałego czasu. Są one aktualizowane codziennie, więc mogą w sposób ciągły pokazywać postęp prac.
+
+---
+
+# metadata
+lo: FL-5.4.1
+k-level: K2
+points: 1
+correct: c
+
+## question
+Musisz zaktualizować jeden ze skryptów testów automatycznych, aby był zgodny z nowym wymaganiem. Który proces wskazuje, że tworzysz nową wersję skryptu testowego w repozytorium testów?
+
+## answers
+a) Zarządzanie śledzeniem powiązań.
+b) Testowanie pielęgnacyjne.
+c) Zarządzanie konfiguracją.
+d) Inżynieria wymagań.
+
+## justification
+a) Odpowiedź niepoprawna. Śledzenie powiązań to związek między dwoma lub więcej produktami pracy, a nie między różnymi wersjami tego samego produktu pracy.
+b) Odpowiedź niepoprawna. Testowanie pielęgnacyjne dotyczy testowania zmian; nie jest ściśle związane z wersjonowaniem skryptów testowych i zarządzaniem konfiguracją.
+c) Odpowiedź poprawna. Aby wesprzeć testowanie, zarządzanie konfiguracją może obejmować kontrolę wersji wszystkich elementów testowych.
+d) Odpowiedź niepoprawna. Inżynieria wymagań polega na pozyskiwaniu, dokumentowaniu i zarządzaniu wymaganiami; nie jest ściśle związana z wersjonowaniem skryptów testowych i zarządzaniem konfiguracją.
+
+---
+
+# metadata
+lo: FL-5.5.1
+k-level: K3
+points: 1
+correct: c
+
+## question
+Programiści przekazali Ci następujący raport o defekcie stwierdzający, że anomalia opisana w niniejszym raporcie nie jest powtarzalna.
+
+> *Aplikacja zawiesza się*
+>
+> *3.05.2022 -- Jan Kowalski -- Odrzucone*
+>
+> *Aplikacja zawiesza się po wpisaniu „Test input: \$ä” w polu Nazwa na ekranie tworzenia nowego użytkownika. Próbowałem się wylogować, zalogować na konto test_admin01, ale problem się powtórzył. Próbowałem z innymi kontami testowymi administratora, ale problem się powtórzył. Nie pojawił się żaden komunikat o błędzie; log (patrz załącznik) zawiera powiadomienie o błędzie krytycznym. Zgodnie z przypadkiem testowym TC-1305 aplikacja powinna zaakceptować podane dane i utworzyć użytkownika. Proszę o pilne usunięcie tego defektu, ponieważ funkcja ta jest powiązana z REQ-0012, które jest krytycznym nowym wymaganiem biznesowym.*
+
+Jakich krytycznych informacji, które byłyby przydatne dla programistów, **brakuje** w tym raporcie?
+
+## answers
+a) Oczekiwany wynik i rzeczywisty wynik.
+b) Odniesienia i status defektu.
+c) Środowisko testowe i element testowy.
+d) Priorytet i krytyczność (ang. *severity*).
+
+## justification
+a) Odpowiedź niepoprawna. Oczekiwanym rezultatem jest „aplikacja powinna zaakceptować podane dane wejściowe i utworzyć użytkownika”. Rzeczywisty rezultat to „Aplikacja zawiesza się po wpisaniu 'Test input. \$ä'”.
+b) Odpowiedź niepoprawna. Istnieje odniesienie do przypadku testowego TC--1305 i powiązanego wymagania REQ-0012, a także status, który stwierdza, że defekt został wcześniej odrzucony. Ponadto status nie byłby zbyt pomocny dla programistów.
+c) Odpowiedź poprawna. Nie wiemy, w jakim środowisku testowym wykryto anomalię, nie wiemy również, która aplikacja (i jej wersja) jest nią dotknięta.
+d) Odpowiedź niepoprawna. Raport o defekcie stwierdza, że anomalia jest pilna, że jest to problem globalny (tj. dotyczy wielu, jeśli nie wszystkich, kont administratorów testów) i że ma ona duży wpływ na interesariuszy biznesowych.
+
+---
+
+# metadata
+lo: FL-6.1.1
+k-level: K2
+points: 1
+correct: c
+
+## question
+Które czynności testowe wspiera narzędzie do przygotowywania danych?
+
+## answers
+a) Monitorowanie testów i nadzór nad testami.
+b) Analiza testów.
+c) Projektowanie testów i implementacja testów.
+d) Ukończenie testów.
+
+## justification
+a) Odpowiedź niepoprawna. Monitorowanie testów obejmuje bieżącą kontrolę wszystkich czynności i porównanie rzeczywistych postępów z planem testów. Nadzór nad testami obejmuje podejmowanie czynności niezbędnych do osiągnięcia celów testów określonych w planie testów. Podczas tych czynności nie przygotowuje się żadnych danych testowych.
+b) Odpowiedź niepoprawna. Analiza testów obejmuje analizę podstawy testów w celu zidentyfikowania warunków testowych i ustalenia ich priorytetów. Podczas tej czynności nie przygotowuje się danych testowych.
+c) Odpowiedź poprawna. Projektowanie i implementacja testów może obejmować identyfikację, tworzenie lub pozyskiwanie testaliów (np. danych testowych) niezbędnych do wykonania testów.
+d) Odpowiedź niepoprawna. Czynności związane z ukończeniem testów mają miejsce w kluczowych momentach projektu (np. wydanie, koniec iteracji, ukończenie testów danego poziomu), więc jest już za późno na przygotowanie danych testowych.
+
+---
+
+# metadata
+lo: FL-6.2.1
+k-level: K1
+points: 1
+correct: b
+
+## question
+Które z poniższych stwierdzeń prawidłowo identyfikuje potencjalne ryzyko związane z automatyzacją testów?
+
+## answers
+a) Automatyzacja może spowodować nieznane regresje w produkcji.
+b) Wysiłek niezbędny do utrzymania testaliów może nie być odpowiednio oszacowany.
+c) Narzędzia testowe i związane z nimi testalia mogą nie być wystarczająco niezawodne.
+d) Automatyzacja może skrócić czas przeznaczony na testowanie manualne.
+
+## justification
+a) Odpowiedź niepoprawna. Automatyzacja testów nie powoduje pojawienia się nieznanych regresji w środowisku produkcyjnym.
+b) Odpowiedź poprawna. Niewłaściwe szacowanie wysiłku na utrzymanie testaliów stanowi ryzyko.
+c) Odpowiedź niepoprawna. Narzędzia testowe należy dobierać tak, aby można było polegać na nich i na ich testaliach.
+d) Odpowiedź niepoprawna. Głównym celem automatyzacji testów jest ograniczenie testów manualnych. Jest to więc korzyść, a nie ryzyko.
+
+---
+
+# metadata
+lo: FL-1.1.2
+k-level: K2
+points: 1
+correct: a
+additional: true
+
+## question
+Poproszono Cię o przeanalizowanie i usunięcie przyczyn awarii w nowym systemie, który ma zostać uruchomiony.
+Jakie czynności wykonujesz?
+
+## answers
+a) Debugowanie.
+b) Testowanie oprogramowania.
+c) Pozyskiwanie wymagań.
+d) Zarządzanie defektami.
+
+## justification
+a) Odpowiedź poprawna. Debugowanie to proces wyszukiwania, analizowania i usuwania przyczyn awarii modułu lub systemu.
+b) Odpowiedź niepoprawna. Testowanie to proces związany z planowaniem, przygotowaniem i oceną modułu lub systemu oraz powiązanych produktów pracy w celu ustalenia, czy spełniają one określone wymagania, wykazania, że są one odpowiednie do zamierzonego celu, oraz wykrycia defektów. Nie ma to związku z usuwaniem przyczyn awarii.
+c) Odpowiedź niepoprawna. Pozyskiwanie wymagań to proces gromadzenia, rejestrowania i dokumentowania wymagań z dostępnych źródeł. Nie ma to związku z usuwaniem przyczyn awarii.
+d) Odpowiedź niepoprawna. Zarządzanie defektami to proces rozpoznawania, rejestrowania, klasyfikowania, badania, rozwiązywania i usuwania defektów. Nie ma to związku z usuwaniem przyczyn awarii.
+
+---
+
+# metadata
+lo: FL-1.2.2
+k-level: K1
+points: 1
+correct: d
+additional: true
+
+## question
+W wielu organizacjach zajmujących się oprogramowaniem dział testowania nazywa się działem zapewnienia jakości (QA). Czy to zdanie jest poprawne, czy nie i dlaczego?
+
+## answers
+a) Jest poprawne. Testowanie i QA oznaczają dokładnie to samo.
+b) Jest poprawne. Nazwy te mogą być używane zamiennie, ponieważ zarówno testowanie, jak i QA, koncentrują się na tych samych kwestiach związanych z jakością.
+c) Nie jest poprawne. Testowanie to coś więcej; testowanie obejmuje wszystkie czynności związane z jakością. QA koncentruje się na procesach związanych z jakością.
+d) Nie jest poprawne. QA koncentruje się na procesach związanych z jakością, a testowanie na kontroli modułu lub systemu pod kątem występowania w nim defektów.
+
+## justification
+Uwzględniając, że testowanie i zapewnienie jakości to nie to samo, należy pamiętać, że testowanie to proces obejmujący wszystkie czynności w ramach cyklu wytwarzania oprogramowania -- zarówno statyczne, jak i dynamiczne -- związane z planowaniem, przygotowaniem i oceną modułu lub systemu oraz powiązanych produktów pracy w celu ustalenia, czy spełniają one określone wymagania oraz wykazania, że są one odpowiednie do zamierzonego celu, a także wykrycia defektów. Zapewnienie jakości natomiast koncentruje się na ustanawianiu, wprowadzaniu, monitorowaniu, ulepszaniu i przestrzeganiu procesów związanych z jakością.
+Zapewnienie jakości natomiast koncentruje się na ustanawianiu, wprowadzaniu, monitorowaniu, ulepszaniu i przestrzeganiu procesów związanych z jakością. W związku z powyższym:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź poprawna.
+
+---
+
+# metadata
+lo: FL-1.2.3
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Dzwoniący telefon na sąsiednim stanowisku pracy rozprasza programistę, powodując, że nieprawidłowo programuje on logikę sprawdzającą górną wartość brzegową zmiennej wejściowej. Później, podczas testowania systemu, tester zauważa, że pole wejściowe akceptuje nieprawidłowe wartości wejściowe.
+Czym w tym scenariuszu jest nieprawidłowo zakodowana górna wartość brzegowa?
+
+## answers
+a) Podstawową przyczyną.
+b) Awarią.
+c) Błędem.
+d) Defektem.
+
+## justification
+a) Odpowiedź niepoprawna. Podstawową przyczyną jest rozproszenie uwagi programisty podczas programowania.
+b) Odpowiedź niepoprawna. Akceptowanie nieprawidłowych danych wejściowych jest awarią.
+c) Odpowiedź niepoprawna. Błędem jest pomyłka programisty, która spowodowała tę niepoprawną implementację wartości brzegowej.
+d) Odpowiedź poprawna. Problemem w kodzie jest defekt.
+
+---
+
+# metadata
+lo: FL-1.4.3
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Rozważ następujący produkt pracy związany z testowaniem.
+
+| Karta opisu testu nr 04.018 | Czas trwania sesji: 1 godz. |
+| :--- | :--- |
+| Przeglądaj: | Strona rejestracji |
+| Przy pomocy: | Różnych zestawów nieprawidłowych danych wejściowych |
+| Aby odkryć: | Defekty związane z akceptacją rejestracji przy użyciu błędnego wejścia |
+
+W ramach której grupy czynności testowych tworzony jest ten dokument?
+
+## answers
+a) Planowanie testów.
+b) Monitorowanie testów i nadzór nad testami.
+c) Analiza testów.
+d) Projektowanie testów.
+
+## justification
+Rozważanymi testaliami jest karta opisu testów, która jest wynikiem projektowania testów, zatem:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź poprawna.
+
+---
+
+# metadata
+lo: FL-1.4.4
+k-level: K2
+points: 1
+correct: c
+additional: true
+
+## question
+Które z poniższych **najlepiej** pokazuje, jak śledzenie powiązań wspiera testowanie?
+
+## answers
+a) Przeprowadzenie analizy wpływu zmiany dostarczy informacji o ukończeniu testów.
+b) Analizowanie śledzenia wyników testów do przypadków testowych dostarczy informacji na temat szacowanego poziomu ryzyka rezydualnego (resztkowego).
+c) Przeprowadzenie analizy wpływu zmiany pomoże w wyborze odpowiednich przypadków testowych do testów regresji.
+d) Analizowanie śledzenia przypadków testowych i przedmiotów testów do podstawy testów pomoże w wyborze danych testowych w celu osiągnięcia zakładanego pokrycia przedmiotu testów.
+
+## justification
+a) Odpowiedź niepoprawna. Przeprowadzenie analizy wpływu nie dostarczy informacji o kompletności testów. Analiza wpływu zmian pomoże w wyborze odpowiednich przypadków testowych do wykonania.
+b) Odpowiedź niepoprawna. Śledzenie powiązań nie dostarcza informacji o szacowanym poziomie ryzyka rezydualnego (resztkowego), jeśli przypadki testowe nie są powiązane z ryzykami.
+c) Odpowiedź poprawna. Przeprowadzenie analizy wpływu zmian pomaga w wyborze przypadków testowych do testów regresji.
+d) Odpowiedź niepoprawna. Analiza śledzenia powiązań między podstawą testów, przedmiotami testów i przypadkami testowymi nie pomaga w wyborze danych testowych w celu osiągnięcia zakładanego pokrycia przedmiotu testów. Wybór danych testowych jest bardziej związany z analizą i implementacją testów, a nie śledzeniem powiązań.
+
+---
+
+# metadata
+lo: FL-1.5.3
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Które z poniższych stwierdzeń **najlepiej** opisuje korzyść wynikającą z niezależności testowania?
+
+## answers
+a) Wykorzystanie niezależnego zespołu testowego pozwala kierownictwu projektu przypisać odpowiedzialność za jakość końcowego produktu temu zespołowi.
+b) Jeśli można sobie pozwolić na zespół testowy spoza organizacji, zespół ten nie będzie tak łatwo podatny na wpływy kierownictwa projektu związane z dostarczeniem produktu i koniecznością dotrzymania ścisłych terminów dostawy.
+c) Niezależny zespół testowy może pracować oddzielnie od programistów, nie musi reagować na zmiany wymagań projektowych i może ograniczyć komunikację z programistami do zgłaszania defektów przez system zarządzania defektami.
+d) Gdy specyfikacje zawierają niejasności i niespójności, przyjmuje się założenia dotyczące ich interpretacji, a niezależny tester może być przydatny w kwestionowaniu tych założeń i interpretacji dokonanych przez programistę.
+
+## justification
+a) Odpowiedź niepoprawna. Jakość powinna być obowiązkiem wszystkich osób pracujących nad projektem, a nie wyłącznie zespołu testowego.
+b) Odpowiedź niepoprawna. Po pierwsze, nie jest to korzystne, jeśli zewnętrzny zespół testowy nie dotrzymuje terminów dostaw, a po drugie, nie ma powodu, aby sądzić, że zewnętrzne zespoły testowe będą uważały, że nie muszą dotrzymywać ścisłych terminów dostaw.
+c) Odpowiedź niepoprawna. Całkowita izolacja zespołu testowego jest złą praktyką -- oczekuje się, że zewnętrzny zespół testowy będzie zwracał uwagę na zmieniające się wymagania projektu i dobrze komunikował się z programistami.
+d) Odpowiedź poprawna. Specyfikacje nigdy nie są idealne, co oznacza, że programista będzie musiał przyjąć pewne założenia. Niezależny tester jest przydatny, ponieważ może kwestionować i weryfikować założenia oraz wynikające z nich interpretacje programisty.
+
+---
+
+# metadata
+lo: FL-2.1.1
+k-level: K2
+points: 1
+correct: b, c
+additional: true
+
+## question
+Pracujesz jako tester w zespole, który stosuje model V.
+Które **dwie** z poniższych czynności **można** wykonać w początkowych fazach cyklu wytwarzania oprogramowania?
+
+## answers
+a) Dynamiczne wykonywanie testów.
+b) Testowanie statyczne.
+c) Planowanie testów.
+d) Wykonywanie testów akceptacyjnych.
+e) Testowanie pielęgnacyjne.
+
+## justification
+a) Odpowiedź niepoprawna. Kod wykonywalny jest zazwyczaj tworzony w późniejszych fazach, więc dynamiczne testy nie mogą być przeprowadzane na wczesnym etapie wytwarzania oprogramowania.
+b) Odpowiedź poprawna. W sekwencyjnych modelach wytwarzania oprogramowania testerzy uczestniczą w początkowych fazach w przeglądach wymagań, co jest formą testowania statycznego.
+c) Odpowiedź poprawna. Planowanie testów można przeprowadzić na wczesnym etapie cyklu wytwarzania oprogramowania, przed rozpoczęciem projektu testowego wraz z analizą testów i projektowaniem testów.
+d) Odpowiedź niepoprawna. Testy akceptacyjne można przeprowadzić, gdy produkt jest już gotowy do działania. W modelach sekwencyjnych gotowy produkt jest zazwyczaj dostarczany w późniejszej fazie cyklu wytwarzania.
+e) Odpowiedź niepoprawna. Testy pielęgnacyjne przeprowadza się, gdy produkt działa i jest wdrożony, co nie ma miejsca we wczesnych fazach cyklu wytwarzania.
+
+---
+
+# metadata
+lo: FL-2.1.4
+k-level: K2
+points: 1
+correct: c
+additional: true
+
+## question
+Które z poniższych są zaletami podejścia DevOps?
+
+i. Szybsze wydawanie produktów i skrócenie czasu wprowadzenia ich na rynek
+ii. Zwiększenie potrzeby powtarzalnych testów manualnych
+iii. Stała dostępność wykonywalnego oprogramowania
+iv. Zmniejszenie liczby testów regresji związanych z refaktoryzacją kodu
+v. Konfiguracja środowiska automatyzacji testów jest niedroga, ponieważ wszystko jest zautomatyzowane
+
+## answers
+a) i, ii, iv to zalety.
+b) iii, v to zalety.
+c) i, iii to zalety.
+d) ii, iv, v to zalety.
+
+## justification
+Biorąc pod uwagę:
+i. Prawda. Szybsze wydawanie produktu i skrócenie czasu wprowadzenia go na rynek to zalety DevOps.
+ii. Fałsz. Zazwyczaj dzięki automatyzacji testów testy manualne wymagają mniejszego nakładu pracy.
+iii. Prawda. Stała dostępność wykonywalnego oprogramowania jest zaletą.
+iv. Fałsz. Potrzeba więcej testów regresji.
+v. Fałsz. Nie wszystko jest zautomatyzowane, a skonfigurowanie struktury automatyzacji testów jest kosztowne.
+
+mamy:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź poprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-2.2.2
+k-level: K2
+points: 1
+correct: b
+additional: true
+
+## question
+Pracujesz jako tester przy projekcie aplikacji mobilnej do zamawiania jedzenia dla jednego z Twoich klientów. Klient przesłał Ci listę wymagań. Jedno z nich, o wysokim priorytecie, brzmi: *„Zamówienie musi być przetworzone w mniej niż 10 sekund w 95% przypadków”*. Stworzyłeś/-łaś zestaw przypadków testowych, w których złożono kilka losowych zamówień, zmierzono czas przetwarzania i sprawdzono wyniki testów pod kątem wymagań.
+Jaki rodzaj testu przeprowadziłeś/-łaś?
+
+## answers
+a) Funkcjonalny, ponieważ przypadki testowe obejmują wymagania biznesowe użytkownika dla systemu.
+b) Niefunkcjonalny, ponieważ przypadki testowe mierzą wydajność systemu.
+c) Funkcjonalny, ponieważ przypadki testowe współdziałają z interfejsem użytkownika.
+d) Białoskrzynkowy, ponieważ należy znać wewnętrzną strukturę programu, aby zmierzyć czas przetwarzania zamówienia.
+
+## justification
+a) Odpowiedź niepoprawna. Fakt, że wymagania dotyczące wydajności systemu pochodzą bezpośrednio od klienta i że wydajność jest ważna z punktu widzenia biznesowego (tj. ma wysoki priorytet) nie sprawia, że testy te są funkcjonalne, ponieważ nie sprawdzają one tego, „co” robi system, ale „jak” (tj. jak szybko przetwarzane są zamówienia).
+b) Odpowiedź poprawna. Jest to przykład testowania wydajności, czyli rodzaj testowania niefunkcjonalnego.
+c) Odpowiedź niepoprawna. Na podstawie scenariusza nie wiemy, czy interakcja z interfejsem użytkownika jest częścią warunków testowych. Ale nawet gdybyśmy to wiedzieli, głównym celem testów jest sprawdzenie wydajności, a nie użyteczności.
+d) Odpowiedź niepoprawna. Nie musimy znać wewnętrznej struktury kodu, aby przeprowadzić testy wydajności. Testy wydajności można przeprowadzić bez wiedzy na temat tej struktury.
+
+---
+
+# metadata
+lo: FL-2.3.1
+k-level: K2
+points: 1
+correct: a
+additional: true
+
+## question
+Strategia testów Twojej organizacji sugeruje, że po wycofaniu systemu należy przetestować migrację danych. W ramach jakiego rodzaju testów najprawdopodobniej zostanie przeprowadzona ta weryfikacja?
+
+## answers
+a) W ramach testów pielęgnacyjnych.
+b) W ramach testów regresji.
+c) W ramach testów niezawodności.
+d) W ramach testów integracji.
+
+## justification
+a) Odpowiedź poprawna. Wycofanie systemu z eksploatacji może wymagać przetestowania migracji danych, co jest formą testowania pielęgnacyjnego.
+b) Odpowiedź niepoprawna. Testy regresji sprawdzają, czy poprawka nie wpłynęła przypadkowo negatywnie na działanie innych części kodu, ale tu mowa jest o migracji danych do nowego systemu.
+c) Odpowiedź niepoprawna. Testowanie niezawodności koncentruje się na dojrzałości systemu i odporności na awarie, a nie na migracji danych.
+d) Odpowiedź niepoprawna. Testy integracyjne koncentrują się na interakcjach między modułami i/lub systemami, a nie na migracji danych. Nie jest to również typ testu, ale poziom testu.
+
+---
+
+# metadata
+lo: FL-3.1.1
+k-level: K1
+points: 1
+correct: c
+additional: true
+
+## question
+Rozważ poniższą listę produktów pracy powstałych w ramach cyklu życia oprogramowania.
+
+i. Wymagania biznesowe
+ii. Harmonogram
+iii. Budżet testów
+iv. Kod wykonywalny strony trzeciej
+v. Historyjki użytkownika i kryteria ich akceptacji
+
+Które z nich można poddać przeglądowi?
+
+## answers
+a) Tylko i oraz iv.
+b) Tylko i, ii, iii, iv.
+c) Tylko i, ii, iii, v.
+d) Tylko iii, iv, v.
+
+## justification
+Tylko kod wykonywalny strony trzeciej nie może być poddany przeglądowi.
+Zatem:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź poprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-3.1.3
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Które z poniższych stwierdzeń (i--v) są prawdziwe w odniesieniu do testów statycznych?
+
+i. Nieprawidłowe zachowania zewnętrzne są łatwiejsze do zidentyfikowania dzięki tym testom
+ii. Dzięki tym testom łatwiej wykryć rozbieżności w stosunku do norm kodowania
+iii. Wykrywają awarie spowodowane defektami podczas działania oprogramowania.
+iv. Celem testów jest jak najwcześniejsze wykrycie defektów.
+v. Brak pokrycia krytycznych wymagań bezpieczeństwa jest łatwiejszy do znalezienia i usunięcia.
+
+## answers
+a) i, iv, v.
+b) i, iii, iv.
+c) ii, iii.
+d) ii, iv, v.
+
+## justification
+Biorąc pod uwagę, że:
+i. Zachowania te są łatwe do wykrycia podczas działania oprogramowania. W związku z tym do ich identyfikacji należy zastosować testowanie dynamiczne.
+ii. Jest to przykład odstępstwa od norm, które jest typowym defektem łatwiejszym do wykrycia podczas testowania statycznego.
+iii. Jeśli oprogramowanie jest uruchamiane podczas testowania, jest to testowanie dynamiczne.
+iv. Jak najwcześniejsze wykrywanie defektów jest celem zarówno testowania statycznego, jak i dynamicznego.
+v. Jest to przykład luk w śledzeniu powiązań podstawy testów lub pokryciu, co jest typowym defektem, który łatwiej wykryć za pomocą testowania statycznego.
+
+A zatem:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź poprawna.
+
+---
+
+# metadata
+lo: FL-3.2.2
+k-level: K2
+points: 1
+correct: b
+additional: true
+
+## question
+Które z poniższych stwierdzeń dotyczących przeglądów formalnych jest prawdziwe?
+
+## answers
+a) Niektóre przeglądy nie wymagają więcej niż jednej roli.
+b) Proces przeglądu obejmuje kilka czynności.
+c) Dokumentacja przeznaczona do przeglądu nie jest dystrybuowana przed spotkaniem przeglądowym, z wyjątkiem produktów pracy dla określonych typów przeglądów.
+d) Defekty wykryte podczas przeglądu nie są zgłaszane, ponieważ nie zostały wykryte podczas testów dynamicznych.
+
+## justification
+a) Odpowiedź niepoprawna. We wszystkich rodzajach przeglądów występuje więcej niż jedna rola, nawet w przeglądach nieformalnych.
+b) Odpowiedź poprawna. W trakcie formalnego procesu przeglądu odbywa się kilka czynności.
+c) Odpowiedź niepoprawna. Dokumentacja przeznaczona do przeglądu powinna zostać rozesłana jak najwcześniej.
+d) Odpowiedź niepoprawna. Defekty wykryte podczas przeglądu powinny zostać zgłoszone.
+
+---
+
+# metadata
+lo: FL-3.2.3
+k-level: K1
+points: 1
+correct: b
+additional: true
+
+## question
+Jakie zadanie może podjąć kierownictwo podczas przeglądu formalnego?
+
+## answers
+a) Przejęcie ogólnej odpowiedzialności za przegląd.
+b) Podejmowanie decyzji dotyczących zakresu przeglądu.
+c) Zapewnienie skutecznego przebiegu spotkań przeglądowych i moderowanie ich w razie potrzeby.
+d) Rejestrowanie informacji dotyczących przeglądu, takich jak decyzje podjęte w jego trakcie.
+
+## justification
+a) Odpowiedź niepoprawna. Jest to zadanie lidera przeglądu.
+b) Odpowiedź poprawna. Jest to zadanie kierownictwa w ramach przeglądu formalnego.
+c) Odpowiedź niepoprawna. Jest to zadanie moderatora.
+d) Odpowiedź niepoprawna. Jest to zadanie protokolanta.
+
+---
+
+# metadata
+lo: FL-4.2.2
+k-level: K3
+points: 1
+correct: c
+additional: true
+
+## question
+System przechowywania wina wykorzystuje urządzenie kontrolne, które mierzy temperaturę T w piwniczce (mierzoną w °C, zaokrągloną do najbliższego stopnia) i alarmuje użytkownika, jeśli odbiega ona od optymalnej wartości 12, zgodnie z następującymi zasadami:
+
+- jeśli T = 12, system wyświetla komunikat „temperatura optymalna”
+- jeśli T < 12, system wyświetla komunikat „temperatura jest zbyt niska!”
+- jeśli T > 12, system wyświetla komunikat „temperatura jest zbyt wysoka!”
+
+Chcesz użyć trójpunktowej analizy wartości brzegowych w celu zweryfikowania działania urządzenia kontrolnego. Dane wejściowe to temperatura w °C podana przez urządzenie.
+Jaki jest **minimalny** zestaw danych wejściowych, który zapewnia 100% pożądanego pokrycia?
+
+## answers
+a) 11, 12, 13.
+b) 10, 12, 14.
+c) 10, 11, 12, 13, 14.
+d) 10, 11, 13, 14.
+
+## justification
+Istnieją trzy klasy równoważności: {..., 10, 11}, {12} oraz {13, 14, ...}. Wartości brzegowe tych klas to 11, 12 i 13. W analizie wartości brzegowych w wersji trójpunktowej dla każdego brzegu należy przetestować brzeg oraz obu jego sąsiadów, więc:
+
+- dla brzegu 11 należy przetestować wartości 10, 11, 12,
+- dla brzegu 12 należy przetestować wartości 11, 12, 13,
+- dla brzegu 13 należy przetestować wartości 12, 13, 14.
+
+Łącznie należy przetestować wartości 10, 11, 12, 13 i 14, zatem:
+a) Odpowiedź niepoprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź poprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-4.3.2
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Które z poniższych stwierdzeń dotyczących testowania gałęzi jest prawdziwe?
+
+## answers
+a) Jeśli program zawiera tylko gałęzie bezwarunkowe, to można osiągnąć 100% pokrycia gałęzi bez wykonywania żadnych przypadków testowych.
+b) Jeśli przypadki testowe sprawdzają wszystkie gałęzie bezwarunkowe w kodzie, osiąga się 100% pokrycia gałęzi.
+c) Jeśli osiągnięto 100% pokrycia instrukcji, to osiągnięto również 100% pokrycia gałęzi.
+d) Jeśli osiągnięto 100% pokrycia gałęzi, to wymuszono wszystkie wyniki decyzji w każdym wyrażeniu decyzyjnym w kodzie.
+
+## justification
+a) Odpowiedź niepoprawna. W tym przypadku nadal potrzebny jest jeden przypadek testowy, ponieważ istnieje co najmniej jedna (bezwarunkowa) gałąź, która musi zostać pokryta.
+b) Odpowiedź niepoprawna. Pokrycie tylko gałęzi bezwarunkowych nie oznacza pokrycia wszystkich gałęzi warunkowych.
+c) Odpowiedź niepoprawna. 100% pokrycia gałęzi oznacza 100% pokrycia instrukcji, a nie odwrotnie. Na przykład w przypadku decyzji IF bez ELSE wystarczy jeden test, aby osiągnąć 100% pokrycia instrukcji, ale osiąga się tylko 50% pokrycia gałęzi.
+d) Odpowiedź poprawna. Każdy wynik decyzji odpowiada gałęzi warunkowej, więc 100% pokrycia gałęzi oznacza 100% pokrycia wyników decyzji.
+
+---
+
+# metadata
+lo: FL-4.4.3
+k-level: K2
+points: 1
+correct: c
+additional: true
+
+## question
+Testujesz aplikację mobilną, która umożliwia klientom dostęp do ich kont bankowych i zarządzanie nimi. Uruchamiasz zestaw testów, który obejmuje ocenę każdego ekranu i każdego pola na każdym ekranie w oparciu o zestaw najlepszych praktyk dotyczących interfejsu użytkownika zaczerpnięty z popularnej książki na ten temat, maksymalizujących użyteczność takich aplikacji.
+Która z poniższych opcji **najlepiej** opisuje technikę testowania, którą stosujesz?
+
+## answers
+a) Testowanie czarnoskrzynkowe.
+b) Testowanie eksploracyjne.
+c) Testowanie oparte na liście kontrolnej.
+d) Zgadywanie błędów.
+
+## justification
+a) Odpowiedź niepoprawna. Książka zawiera ogólne wytyczne i nie jest formalnym dokumentem zawierającym wymagania, specyfikacją ani zbiorem przypadków użycia, historyjek użytkownika czy procesów biznesowych.
+b) Odpowiedź niepoprawna. Chociaż listę praktyk można traktować jako zestaw kart opisu testu, bardziej przypomina ona listę warunków testowych, które należy sprawdzić.
+c) Odpowiedź poprawna. Lista najlepszych praktyk dotyczących interfejsu użytkownika jest listą warunków testowych, które należy systematycznie sprawdzać.
+d) Odpowiedź niepoprawna. Testy nie koncentrują się na potencjalnych awariach, ale raczej na wiedzy o tym, co jest ważne dla użytkownika pod względem użyteczności.
+
+---
+
+# metadata
+lo: FL-4.5.1
+k-level: K2
+points: 1
+correct: b
+additional: true
+
+## question
+Które z poniższych stwierdzeń najlepiej opisuje podejście do pisania historyjek użytkownika oparte na współpracy?
+
+## answers
+a) Historyjki użytkownika są tworzone przez testerów i programistów, a następnie akceptowane przez przedstawicieli jednostek biznesowych.
+b) Historyjki użytkownika są tworzone wspólnie przez przedstawicieli jednostek biznesowych, programistów i testerów.
+c) Historyjki użytkownika są tworzone przez przedstawicieli jednostek biznesowych i weryfikowane przez programistów i testerów.
+d) Historyjki użytkownika są tworzone w taki sposób, aby były niezależne, negocjowalne, wartościowe, możliwe do oszacowania, niewielkie i możliwe do przetestowania.
+
+## justification
+a) Odpowiedź niepoprawna. Proces tworzenia historyjek użytkownika angażuje wszystkich interesariuszy, by wypracować spójną wizję.
+b) Odpowiedź poprawna. Proces tworzenia historyjek użytkownika angażuje wszystkich interesariuszy, by wypracować spójną wizję.
+c) Odpowiedź niepoprawna. Proces tworzenia historyjek użytkownika angażuje wszystkich interesariuszy, by wypracować spójną wizję.
+d) Odpowiedź niepoprawna. Jest to lista właściwości, które powinna posiadać każda historyjka użytkownika, a nie opis podejścia opartego na współpracy.
+
+---
+
+# metadata
+lo: FL-5.1.1
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Rozważ następującą część planu testów: „*Testy będą przeprowadzane przy użyciu testowania modułowego i integracji modułów. Przepisy wymagają wykazania, że dla każdego modułu sklasyfikowanego jako krytyczny osiągnięte będzie 100% pokrycia gałęzi.*”
+Do której części planu testów należy ta część?
+
+## answers
+a) Komunikacja.
+b) Rejestr ryzyk.
+c) Kontekst testowania.
+d) Podejście do testów.
+
+## justification
+a) Odpowiedź niepoprawna. Ta część planu zawiera informacje na temat poziomów testów i kryteriów wyjścia, które są częścią podejścia do testów, a nie opisu komunikacji.
+b) Odpowiedź niepoprawna. Ta część planu zawiera informacje na temat poziomów testów i kryteriów wyjścia, które są częścią podejścia do testów, a nie rejestru ryzyk.
+c) Odpowiedź niepoprawna. Ta część planu zawiera informacje na temat poziomów testów i kryteriów wyjścia, które są częścią podejścia do testów, a nie opisu kontekstu.
+d) Odpowiedź poprawna. Ta część planu zawiera informacje na temat poziomów testów i kryteriów wyjścia, które są częścią podejścia do testów.
+
+---
+
+# metadata
+lo: FL-5.1.4
+k-level: K3
+points: 1
+correct: b
+additional: true
+
+## question
+Twój zespół używa pokera planistycznego do oszacowania nakładu pracy związanego z testowaniem nowej wymaganej funkcji. W zespole obowiązuje zasada, że jeśli nie ma czasu na osiągnięcie pełnej zgody, a różnice w wynikach są niewielkie, można zastosować zasady takie jak „zaakceptuj liczbę, która uzyskała najwięcej głosów”.
+Po dwóch rundach nie osiągnięto konsensusu, więc rozpoczęto trzecią rundę. Wyniki oszacowania testów można zobaczyć w poniższej tabeli.
+
+Szacunki członków zespołu:
+
+| **Runda** |  |  |  |  |  |  |  |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Runda 1 | 21 | 2 | 5 | 34 | 13 | 8 | 2 |
+| Runda 2 | 13 | 8 | 8 | 34 | 13 | 8 | 5 |
+| Runda 3 | 13 | 8 | 13 | 13 | 13 | 13 | 8 |
+
+Które z poniższych jest **najlepszym** przykładem kolejnego kroku?
+
+## answers
+a) Właściciel produktu musi wkroczyć do akcji i podjąć ostateczną decyzję.
+b) Akceptacja 13 jako ostatecznego wyniku, ponieważ uzyskała ona najwięcej głosów.
+c) Nie są potrzebne żadne dalsze działania, gdyż osiągnięto konsensus.
+d) Usunąć nową funkcję z bieżącej wersji, ponieważ nie osiągnięto konsensusu.
+
+## justification
+a) Odpowiedź niepoprawna. Powinna to być aktywność zespołowa i nie powinna być podważana przez jednego członka zespołu.
+b) Odpowiedź poprawna. Jeśli różnice w wynikach są niewielkie, można zastosować zasady takie jak „zaakceptuj wynik z największą liczbą głosów”.
+c) Odpowiedź niepoprawna. Nie ma jeszcze konsensusu, ponieważ niektórzy twierdzą, że 13, a inni, że 8.
+d) Odpowiedź niepoprawna. Funkcja nie powinna zostać usunięta tylko dlatego, że zespół nie może dojść do porozumienia w sprawie szacunku wysiłku testowego.
+
+---
+
+# metadata
+lo: FL-5.1.6
+k-level: K1
+points: 1
+correct: a
+additional: true
+
+## question
+Które z poniższych stwierdzeń dotyczących piramidy testów jest **prawdziwe**?
+
+## answers
+a) Sugeruje przeprowadzanie większej liczby testów na niższych poziomach testów.
+b) Sugeruje, że każdy test niskiego poziomu sprawdza dużą część funkcjonalności.
+c) Opisuje rozkład typów testów w całym cyklu wytwarzania oprogramowania.
+d) Nie ma wpływu na tworzenie testów automatycznych.
+
+## justification
+a) Odpowiedź poprawna. Piramida testów kładzie nacisk na większą liczbę testów na niższych poziomach testów.
+b) Odpowiedź niepoprawna. Nie jest prawdą, że test na niższym poziomie testów sprawdza większą część funkcjonalności. Testy na niższych poziomach piramidy testów są bardziej atomowe i zorientowane na konkretną logikę, więc jest odwrotnie.
+c) Odpowiedź niepoprawna. Piramida testów pokazuje, jak liczba testów jest rozłożona na poszczególnych poziomach testów.
+d) Odpowiedź niepoprawna. Model piramidy testów wspiera zespół w automatyzacji testów.
+
+---
+
+# metadata
+lo: FL-5.2.1
+k-level: K1
+points: 1
+correct: c
+additional: true
+
+## question
+Podczas analizy ryzyka zespół rozważał następujące ryzyko: „*System pozwala na zbyt wysokie rabaty dla klientów*”. Zespół oszacował wpływ ryzyka jako bardzo wysoki.
+Co można powiedzieć o prawdopodobieństwie wystąpienia tego ryzyka?
+
+## answers
+a) Jest ono również bardzo wysokie; wysoki wpływ ryzyka zawsze oznacza wysokie prawdopodobieństwo wystąpienia ryzyka.
+b) Jest bardzo niskie; wysoki wpływ ryzyka zawsze oznacza niskie prawdopodobieństwo wystąpienia ryzyka.
+c) Nie można nic powiedzieć o prawdopodobieństwie wystąpienia ryzyka; wpływ ryzyka i prawdopodobieństwo wystąpienia ryzyka są niezależne.
+d) Prawdopodobieństwo wystąpienia ryzyka nie jest ważne przy tak wysokim wpływie ryzyka; nie ma potrzeby jego definiowania.
+
+## justification
+a) Odpowiedź niepoprawna. Wpływ ryzyka i prawdopodobieństwo wystąpienia ryzyka są od siebie niezależne.
+b) Odpowiedź niepoprawna. Wpływ ryzyka i prawdopodobieństwo wystąpienia ryzyka są od siebie niezależne.
+c) Odpowiedź poprawna. Wpływ ryzyka i prawdopodobieństwo wystąpienia ryzyka są od siebie niezależne.
+d) Odpowiedź niepoprawna. Potrzebujemy obu czynników, aby obliczyć poziom ryzyka.
+
+---
+
+# metadata
+lo: FL-5.2.2
+k-level: K2
+points: 1
+correct: a
+additional: true
+
+## question
+Poniższa lista zawiera ryzyka, które zostały zidentyfikowane dla nowego produktu oprogramowania, który ma zostać opracowany:
+
+i. Kierownictwo przenosi dwóch doświadczonych testerów do innego projektu
+ii. System nie spełnia norm bezpieczeństwa
+iii. Czas reakcji systemu przekracza wymagania użytkowników
+iv. Interesariusze mają niejasne oczekiwania
+v. Osoby niepełnosprawne mają problemy podczas korzystania z systemu
+
+Które z nich są ryzykami projektowymi?
+
+## answers
+a) i, iv.
+b) iv, v.
+c) i, iii.
+d) ii, v.
+
+## justification
+Biorąc pod uwagę, że:
+i. Jest to ryzyko projektowe
+ii. Jest to ryzyko produktowe
+iii. Jest to ryzyko produktowe
+iv. Jest to ryzyko projektowe
+v. Jest to ryzyko produktowe
+
+mamy:
+a) Odpowiedź poprawna.
+b) Odpowiedź niepoprawna.
+c) Odpowiedź niepoprawna.
+d) Odpowiedź niepoprawna.
+
+---
+
+# metadata
+lo: FL-5.2.3
+k-level: K2
+points: 1
+correct: d
+additional: true
+
+## question
+Które z poniższych stanowi przykład wpływu analizy ryzyka produktowego na dokładność i zakres testowania?
+
+## answers
+a) Kierownik testów codziennie monitoruje i raportuje poziom wszystkich znanych ryzyk, aby interesariusze mogli podjąć świadomą decyzję dotyczącą daty wydania.
+b) Jednym ze zidentyfikowanych ryzyk był „*Brak wsparcia dla otwartych baz danych*”, więc zespół zdecydował się zintegrować system z otwartą bazą danych.
+c) Podczas ilościowej analizy ryzyka zespół oszacował całkowity poziom wszystkich zidentyfikowanych ryzyk i zgłosił go jako całkowite ryzyko rezydualne przed testowaniem.
+d) Ocena ryzyka wykazała bardzo wysoki poziom ryzyk związanych z wydajnością, dlatego zdecydowano się przeprowadzić wczesne, szczegółowe testy wydajności.
+
+## justification
+a) Odpowiedź niepoprawna. Jest to przykład działania związanego z monitorowaniem ryzyka, a nie z analizą ryzyka.
+b) Odpowiedź niepoprawna. Jest to przykład decyzji architektonicznej, niezwiązanej z testowaniem.
+c) Odpowiedź niepoprawna. Jest to przykład przeprowadzenia ilościowej analizy ryzyka i nie ma związku z dokładnością ani zakresem testowania.
+d) Odpowiedź poprawna. Pokazuje to, jak analiza ryzyka wpływa na dokładność testowania (tj. poziom szczegółowości testów).
+
+---
+
+# metadata
+lo: FL-5.3.1
+k-level: K1
+points: 1
+correct: a, d
+additional: true
+
+## question
+Które **dwie** z poniższych opcji są powszechnie stosowanymi metrykami służącymi do raportowania poziomu jakości przedmiotu testów?
+
+## answers
+a) Liczba defektów wykrytych podczas testowania systemu.
+b) Całkowity nakład pracy nad projektem testów podzielony przez liczbę zaprojektowanych przypadków testowych.
+c) Liczba wykonanych procedur testowych.
+d) Liczba wykrytych defektów podzielona przez rozmiar produktu pracy.
+e) Czas potrzebny do usunięcia defektu.
+
+## justification
+a) Odpowiedź poprawna. Liczba wykrytych defektów jest związana z jakością przedmiotu testów.
+b) Odpowiedź niepoprawna. Jest to miara efektywności testowania, a nie jakości przedmiotu testów.
+c) Odpowiedź niepoprawna. Liczba wykonanych przypadków testowych nie mówi nam nic o jakości; wyniki testów mogą to zrobić.
+d) Odpowiedź poprawna. Gęstość defektów jest związana z jakością przedmiotu testów.
+e) Odpowiedź niepoprawna. Czas naprawy jest metryką procesu, a nie jakości produktu.
+
+---
+
+# metadata
+lo: FL-5.3.2
+k-level: K2
+points: 1
+correct: b
+additional: true
+
+## question
+Która z poniższych informacji zawartych w raporcie o postępie testów jest **najmniej** przydatna dla przedstawicieli jednostek biznesowych?
+
+## answers
+a) Przeszkody w testowaniu.
+b) Osiągnięte pokrycie gałęzi.
+c) Postęp testów.
+d) Nowe ryzyka w cyklu testowym.
+
+## justification
+a) Odpowiedź niepoprawna. Przeszkody w testowaniu mogą mieć charakter ogólny i być związane z działalnością biznesową, dlatego jest to ważna informacja dla interesariuszy biznesowych.
+b) Odpowiedź poprawna. Testowanie gałęzi jest techniczną metryką stosowaną przez programistów i technicznych analityków testów. Informacja ta nie jest interesująca dla przedstawicieli jednostek biznesowych.
+c) Odpowiedź niepoprawna. Postęp testów jest związany z projektem, więc informacja na jego temat może być przydatna dla przedstawicieli jednostek biznesowych.
+d) Odpowiedź niepoprawna. Ryzyka mają wpływ na jakość produktu, więc informacja na ich temat może być przydatna dla przedstawicieli jednostek biznesowych.
