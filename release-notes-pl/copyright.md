@@ -14,3 +14,5 @@ Autorzy przenoszą prawa autorskie na International Software Testing Qualificati
 Niniejszy dokument został oficjalnie wydany przez Zgromadzenie Ogólne ISTQB® w dniu 26 kwietnia 2023 r.
 
 Prawa autorskie wersji polskiej: Copyright © Polish Quality Board (PQB).
+
+Tłumaczenie wygenerowane automatycznie.
