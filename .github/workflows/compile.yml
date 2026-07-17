@@ -14,6 +14,36 @@ jobs:
     # A Git ref in the repository istqb_product_base, which should be used for the CI definition
     uses: istqborg/istqb_product_base/.github/workflows/compile.yml@main
     with:
-      skip-prerelease: false
+      # The upstream prerelease job always targets the tag "latest", which is permanently reserved on this
+      # repo because a past run published it as a GitHub immutable release (immutable release tags/assets
+      # can never be reused, even after deleting the release: see
+      # https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases).
+      # We publish our own prerelease below under a different tag instead.
+      skip-prerelease: true
       # A Git ref in the repository istqb_product_base, which should be used for the LaTeX+Markdown template
       base-version: main
+  prerelease:
+    name: Create a prerelease
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v4
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: PDF
+      - name: Move prerelease tag to latest commit
+        run: |
+          git tag -f prerelease-latest
+          git push origin prerelease-latest --force
+      - name: Create a prerelease
+        uses: ncipollo/release-action@v1
+        with:
+          tag: prerelease-latest
+          name: The latest version
+          prerelease: true
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: '*.pdf'
