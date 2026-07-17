@@ -729,3 +729,4 @@ a) Odpowiedź poprawna. Podstawową koncepcją zgadywania błędów jest to, że
 b) Odpowiedź niepoprawna. Chociaż tester, który wcześniej był programistą, może wykorzystać swoje doświadczenie podczas zgadywania błędów, to jednak ta technika testowania nie opiera się na wcześniejszego doświadczenia w programowaniu.
 c) Odpowiedź niepoprawna. Zgadywanie błędów nie jest techniką ograniczoną do testowania użyteczności i odgadywania, w jaki sposób użytkownicy mogą nieprawidłowo korzystać z przedmiotu testów.
 d) Odpowiedź niepoprawna. Powielanie zadania programistycznego to nie zgadywanie błędów. Ponadto, ma ono kilka wad, które sprawiają, że jest ono niepraktyczne, np. konieczność posiadania przez testera umiejętności równoważnych umiejętnościom programisty oraz czas potrzebny do wykonania zadania programistycznego. To nie jest zgadywanie błędów.
+
