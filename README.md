@@ -1,5 +1,7 @@
 # Repository that holds translation and generate delivery files
 
+Depends on https://github.com/istqborg/istqb_product_base
+
 ## Procedure of building process
 
 For instructions on writing documents, see the [documentation][1] of the LaTeX+Markdown template.
