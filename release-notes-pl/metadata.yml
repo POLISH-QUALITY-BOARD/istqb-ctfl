@@ -6,3 +6,6 @@ prefix: FL
 type: Nota wydania
 date: 2023/04/26
 language: pl
+provided-by:
+- name: Polish Quality Board
+  logo: PQB-logo
