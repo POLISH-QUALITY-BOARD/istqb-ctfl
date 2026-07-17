@@ -113,3 +113,4 @@ c) Odpowiedź poprawna. Liczba lat doświadczenia członków zespołu testowego 
 d) Odpowiedź niepoprawna. Struktura organizacji użytkownika końcowego może mieć niewielki wpływ na sposób przeprowadzania testów.
 
 ---
+

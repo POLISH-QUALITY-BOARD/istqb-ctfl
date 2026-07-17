@@ -12,7 +12,8 @@ jobs:
   build:
     name: Build LaTeX documents
     # A Git ref in the repository istqb_product_base, which should be used for the CI definition
-    uses: istqborg/istqb_product_base/.github/workflows/compile.yml@main
+    # uses: istqborg/istqb_product_base/.github/workflows/compile.yml@main
+    uses: istqborg/istqb_product_base/.github/workflows/compile.yml@build/maintenance_for_bld_process
     with:
       # The upstream prerelease job always targets the tag "latest", which is permanently reserved on this
       # repo because a past run published it as a GitHub immutable release (immutable release tags/assets
@@ -21,7 +22,8 @@ jobs:
       # We publish our own prerelease below under a different tag instead.
       skip-prerelease: true
       # A Git ref in the repository istqb_product_base, which should be used for the LaTeX+Markdown template
-      base-version: main
+      # base-version: main
+      base-version: build/maintenance_for_bld_process
   prerelease:
     name: Create a prerelease
     needs: build
